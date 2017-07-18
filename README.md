@@ -8,6 +8,8 @@ Lumberyard Documentation: https://docs.aws.amazon.com/lumberyard/latest/userguid
 
 Amazon GameDev Tutorials: https://gamedev.amazon.com/forums/tutorials
 
+An Introduction to AWS Lumberyard Game Development: https://www.packtpub.com/books/content/introduction-aws-lumberyard-game-development
+
 # System Requirements
 
 Lumberyard requires the following hardware and software:
