@@ -1,0 +1,11 @@
+{
+    "GemFormatVersion": 3,
+    "Uuid": "5c539192ddda40aaa2e92eb71f8e3170",
+    "Name": "StarterGameGem",
+    "DisplayName": "StarterGameGem",
+    "Version": "0.1.0",
+    "LinkType": "Dynamic",
+    "Summary": "Provides services for the StarterGame sample.",
+    "Tags": ["Untagged"],
+    "IconPath": "preview.png"
+}

@@ -1,0 +1,12 @@
+<ParaGroup>
+ <Dimensions>
+  <Param Name="BlendWeight2" Min="0" Max="1.5" Cells="9"/>
+ </Dimensions>
+ <ExampleList>
+  <Example SetPara0="0" AName="jack_idle"/>
+  <Example SetPara0="1" AName="jack_idle_aim"/>
+ </ExampleList>
+ <Blendable>
+  <Face p0="0" p1="1"/>
+ </Blendable>
+</ParaGroup>

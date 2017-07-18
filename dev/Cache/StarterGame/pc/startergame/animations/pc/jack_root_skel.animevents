@@ -1,0 +1,7 @@
+<anim_event_list>
+ <animation name="animations/pc/movement/jack_strafe_run_forwards.caf"/>
+ <animation name="animations/pc/movement/movement.bspace">
+  <event name="audio_trigger" time="0.0305" endTime="0.0305" parameter="Play_pla_fol_loco_fstp" bone="def_r_ankle" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="audio_trigger" time="0.47133332" endTime="0.47133332" parameter="Play_pla_fol_loco_fstp" bone="def_l_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+</anim_event_list>

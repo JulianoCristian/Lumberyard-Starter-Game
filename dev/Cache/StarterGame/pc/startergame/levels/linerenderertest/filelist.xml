@@ -1,0 +1,6 @@
+<download name="LineRendererTest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="10410" md5="a38c3f649b3467f0bdcfe9887a802f87"/>
+ </files>
+</download>

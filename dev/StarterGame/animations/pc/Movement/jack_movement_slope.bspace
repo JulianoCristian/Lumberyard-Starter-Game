@@ -1,0 +1,37 @@
+<ParaGroup>
+ <Dimensions>
+  <Param Name="MoveSpeed" Min="0" Max="5.7912002" Cells="6"/>
+  <Param Name="TravelSlope" Min="-1.0471981" Max="1.0471981" Cells="20"/>
+  <Param Name="BlendWeight2" Min="0" Max="1.5" Cells="9"/>
+ </Dimensions>
+ <ExampleList>
+  <Example SetPara2="0" AName="Jack_Zero_Movement"/>
+  <Example SetPara1="1.0471981" SetPara2="0" AName="Jack_Zero_Movement_Up"/>
+  <Example SetPara1="-1.0471981" SetPara2="0" AName="Jack_Zero_Movement_Down"/>
+  <Example SetPara2="0" AName="jack_strafe_walk_forwards"/>
+  <Example SetPara2="0" AName="jack_strafe_run_forwards"/>
+  <Example SetPara2="0" AName="Jack_Strafe_Run_Forwards_Up"/>
+  <Example SetPara2="0" AName="Jack_Strafe_Run_Forwards_Down"/>
+  <Example SetPara2="0" AName="Jack_Strafe_Walk_Forwards_Up"/>
+  <Example SetPara2="0" AName="Jack_Strafe_Walk_Forwards_Down"/>
+  <Example SetPara2="1" AName="Jack_Zero_Movement_Aim"/>
+  <Example SetPara1="1.0471981" SetPara2="1" AName="jack_zero_movement_up_aim"/>
+  <Example SetPara1="-1.0471981" SetPara2="1" AName="jack_zero_movement_down_aim"/>
+  <Example SetPara2="1" AName="jack_strafe_walk_forwards_Aim"/>
+  <Example SetPara2="1" AName="jack_strafe_run_forwards_Aim"/>
+  <Example SetPara2="1" AName="jack_strafe_run_forwards_up_aim"/>
+  <Example SetPara2="1" AName="jack_strafe_run_forwards_down_aim"/>
+  <Example SetPara2="1" AName="jack_strafe_walk_forwards_up_aim"/>
+  <Example SetPara2="1" AName="jack_strafe_walk_forwards_down_aim"/>
+ </ExampleList>
+ <Blendable>
+  <Face p0="0" p1="3" p2="7" p3="1" p4="12" p5="16"/>
+  <Face p0="10" p1="16" p2="12" p3="9" p4="1" p5="0"/>
+  <Face p0="0" p1="2" p2="8" p3="3" p4="17" p5="12"/>
+  <Face p0="11" p1="9" p2="12" p3="17" p4="2" p5="0"/>
+  <Face p0="3" p1="4" p2="5" p3="7" p4="13" p5="14"/>
+  <Face p0="16" p1="14" p2="13" p3="12" p4="7" p5="3"/>
+  <Face p0="3" p1="8" p2="6" p3="4" p4="15" p5="13"/>
+  <Face p0="17" p1="12" p2="13" p3="15" p4="8" p5="3"/>
+ </Blendable>
+</ParaGroup>

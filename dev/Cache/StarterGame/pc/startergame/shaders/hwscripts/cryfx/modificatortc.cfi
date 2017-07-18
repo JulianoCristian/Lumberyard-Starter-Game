@@ -1,0 +1,142 @@
+/*
+* All or portions of this file Copyright (c) Amazon.com, Inc. or its affiliates or
+* its licensors.
+*
+* For complete copyright and license terms please see the LICENSE at the root of this
+* distribution (the "License"). All use of this software is governed by the License,
+* or, if provided, by the license below or the license accompanying this file. Do not
+* remove or modify any license notices. This file is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+*
+*/
+// Original file Copyright Crytek GMBH or its affiliates, used under license.
+
+float4x4 _ModelView      : PB_View;
+float4x4 _ModelView_IT   : PB_View_IT;
+
+// Note: when removing slots from renderer side - plz make sure to update then here
+#define	EFTT_DIFFUSE 0
+#define EFTT_NORMAL 1
+#define EFTT_SPECULAR 2
+#define EFTT_ENV 3
+#define EFTT_DETAIL_OVERLAY 4
+#define EFTT_SECOND_SMOOTHNESS 5
+#define EFTT_HEIGHT 6
+#define EFTT_DECAL_OVERLAY 7
+#define EFTT_SUBSURFACE 8
+#define EFTT_CUSTOM 9
+#define EFTT_CUSTOM_SECONDARY 10
+#define EFTT_OPACITY 11
+#define EFTT_SMOOTHNESS 12
+#define EFTT_EMITTANCE 13
+#define EFTT_MAX_MATRICRES 13
+
+// Texture modificators/generators matrices
+float4x4 PB_TCMMatrixArray[EFTT_MAX_MATRICRES] : PB_TCMMatrix;
+float4x4 _TCMMatrixDiffuse1 : PB_TCMMatrix[EFTT_DIFFUSE]; 
+float4x4 _TCMMatrixDiffuse2 : PB_TCMMatrix[EFTT_CUSTOM]; 
+float4x4 _TCMMatrixEmissiveIntensity : PB_TCMMatrix[EFTT_DECAL_OVERLAY];
+float4x4 _TCMMatrixEmittance : PB_TCMMatrix[EFTT_EMITTANCE];
+float4x4 _TCMMatrixDetail : PB_TCMMatrix[EFTT_DETAIL_OVERLAY];
+
+// Per instance texture modificators/generators matrices
+float4x4 PB_TCGMatrixArray[EFTT_MAX_MATRICRES] : PB_TCGMatrix;
+float4x4 _TCGMatrixDiffuse1 : PI_TCGMatrix[EFTT_DIFFUSE];
+float4x4 _TCGMatrixDiffuse2 : PI_TCGMatrix[EFTT_CUSTOM];
+float4x4 _TCGMatrixEmissiveIntensity : PI_TCGMatrix[EFTT_DECAL_OVERLAY];
+float4x4 _TCGMatrixEmittance : PI_TCGMatrix[EFTT_EMITTANCE];
+float4x4 _TCGMatrixDetail : PI_TCGMatrix[EFTT_DETAIL_OVERLAY];
+
+float4 _ModifyUV_1(float4 inTC, out float4 outTC, float4 vPos)
+{
+#if %_TT_TEXCOORD_GEN_OBJECT_LINEAR || %_TT_TEXCOORD_MATRIX
+    // Diffuse texture matrix for oscillation and rotation control
+	#ifdef %_TT_TEXCOORD_GEN_OBJECT_LINEAR
+		inTC = mul( _TCGMatrixDiffuse1, vPos );
+	#endif
+	#if %_TT_TEXCOORD_MATRIX
+		inTC.xyzw = mul( inTC, _TCMMatrixDiffuse1 );
+	#endif
+#endif
+  
+  outTC.xyzw = inTC.xyzw;
+  return inTC;
+}
+
+float4 ModifyTexCoord(in float4 inTC, in float4 position, in float4x4 tcgMatrix, in float4x4 tcmMatrix)
+{
+#ifdef %_TT_TEXCOORD_GEN_OBJECT_LINEAR
+    inTC = mul(tcgMatrix, position);
+#endif
+#if %_TT_TEXCOORD_MATRIX
+    inTC = mul(inTC, tcmMatrix);
+#endif
+    return inTC;
+}
+
+float4 _ModifyBlendLayerUV(in float4 inTC, in float4 vPos)
+{
+    return ModifyTexCoord(inTC, vPos, _TCGMatrixDiffuse2, _TCMMatrixDiffuse2);
+}
+
+float4 _ModifyEmittanceUV(in float4 inTC, in float4 vPos)
+{
+    return ModifyTexCoord(inTC, vPos, _TCGMatrixEmittance, _TCMMatrixEmittance);
+}
+
+float4 _ModifyEmissiveIntensityUV(in float4 inTC, in float4 vPos)
+{
+    return ModifyTexCoord(inTC, vPos, _TCGMatrixEmissiveIntensity, _TCMMatrixEmissiveIntensity);
+}
+
+float4 _ModifyDetailUV(in float4 inTC, in float4 vPos)
+{
+    return ModifyTexCoord(inTC, vPos, _TCGMatrixDetail, _TCMMatrixDetail);
+}
+
+// The following method is the right way to go with generic slot, however slots are not active
+// unless specifically using the matrix declaration.
+// Using the selector will workbut will cost one more instruction hence using the two
+// dedicated function above is the cheapest and activation specific way to go for now.
+float4 _TCModify(float4 inTC, out float4 outTC, float4 vPos, int nTSlot)
+{
+#if %_TT_TEXCOORD_GEN_OBJECT_LINEAR || %_TT_TEXCOORD_MATRIX
+  if (	(nTSlot == EFTT_DIFFUSE) ||		// Diffuse texture matrix for oscillation and rotation control
+		(nTSlot == EFTT_CUSTOM))		// Second Diffuse texture matrix for oscillation and rotation control
+  {  
+	#ifdef %_TT_TEXCOORD_GEN_OBJECT_LINEAR
+        inTC = mul((nTSlot == EFTT_DIFFUSE) ? _TCGMatrixDiffuse1 : _TCGMatrixDiffuse2, vPos );
+//		inTC = mul( PB_TCGMatrixArray[nTSlot], vPos );		// Direct indexing does not work for some reason
+	#endif
+	#if %_TT_TEXCOORD_MATRIX
+        inTC.xyzw = mul( inTC, (nTSlot == EFTT_DIFFUSE) ? _TCMMatrixDiffuse1 : _TCMMatrixDiffuse2);
+//		inTC.xyzw = mul( inTC, PB_TCMMatrixArray[nTSlot] );	// Direct indexing does not work for some reason
+	#endif
+  }
+#endif
+  
+  outTC.xyzw = inTC.xyzw;
+  
+  return inTC;
+}
+
+void _TCModifyDecal(in streamPos vertPassPos, out float4 outTC, out float3 outDistAtten )
+{
+	float4 vPosDecal = vertPassPos.Position;  
+	float3 vNorm = vertPassPos.ObjToTangentSpace[2];
+	outDistAtten = 1;
+
+#if %_RT_DECAL_TEXGEN_2D
+
+  // tex gen for 2d projected decals
+  outTC.x = dot( DecalTangent, vPosDecal );
+  outTC.y = dot( DecalBinormal, vPosDecal );  
+  outTC.zw = 0;  
+  
+  // attenuation for 2d projected decals
+  float3 DistAtten = vPosDecal.xyz - DecalAtten.xyz;
+  DistAtten = mul( vertPassPos.ObjToTangentSpace, DistAtten );          
+  outDistAtten = DistAtten / DecalAtten.w;   
+
+#endif  
+}

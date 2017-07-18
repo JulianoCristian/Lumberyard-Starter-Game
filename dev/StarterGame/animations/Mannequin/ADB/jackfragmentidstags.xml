@@ -1,0 +1,13 @@
+<TagDefinition version="2">
+ <Tags>
+  <Tag name="Idle"/>
+  <Tag name="Moving"/>
+  <Tag name="Aiming"/>
+  <Tag name="IdleTurn"/>
+  <Tag name="Idle2Move"/>
+  <Tag name="Move2Idle"/>
+  <Tag name="Shoot"/>
+  <Tag name="Hit"/>
+  <Tag name="Dead" subTagDef="Animations/Mannequin/ADB/jacktags.xml"/>
+ </Tags>
+</TagDefinition>

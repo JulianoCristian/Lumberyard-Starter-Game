@@ -1,0 +1,7 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="81000001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" Diffuse="1,1,1" Specular="0.012983033,0.012983033,0.012983033" Opacity="1" Shininess="110" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="EngineAssets/TextureMsg/DefaultNoUVs.dds"/>
+  <Texture Map="Bumpmap" File="engineassets/texturemsg/defaultnouvs_ddn.dds"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

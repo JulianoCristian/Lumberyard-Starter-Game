@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A5D69FF8-8581-44F0-8F75-B70AE1093E68}" SchemaVersion="72">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{A5D69FF8-8581-44F0-8F75-B70AE1093E68}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="rtpc_distance" ID="{F0AD3203-0A9D-4225-BF4C-A2987A18B9B8}">
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="5"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="5"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="rtpc_playerHeight" ID="{13B5291E-19FA-49F5-A7F1-001743089647}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

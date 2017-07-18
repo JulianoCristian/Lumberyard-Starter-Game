@@ -1,0 +1,14 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="rifle" MtlFlags="524416" Shader="Illum" GenMask="60400001" StringGenMask="%ALLOW_SILHOUETTE_POM%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emittance="0.19120172,0.34191445,0.006512091,28" Opacity="1" Shininess="136" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/rifle/rifle_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/weapons/rifle/rifle_ddn.dds"/>
+    <Texture Map="Specular" File="objects/weapons/rifle/rifle_spec.dds"/>
+    <Texture Map="Emittance" File="objects/weapons/rifle/rifle_emis.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

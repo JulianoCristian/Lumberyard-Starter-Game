@@ -1,0 +1,93 @@
+<anim_event_list>
+ <animation name="animations/pc/movement/jack_strafe_run_forwards.caf"/>
+ <animation name="animations/pc/movement/movement.bspace">
+  <event name="footstep" time="0.087666668" endTime="0.087669998" parameter="" bone="r_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="audio_trigger" time="0.11133333" endTime="0.11133333" parameter="Play_pla_fol_run" bone="r_loLeg" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.57016665" endTime="0.57016665" parameter="" bone="l_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="audio_trigger" time="0.60149997" endTime="0.60149997" parameter="Play_pla_fol_run" bone="l_loLeg" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/pc/turns/jack_idle_turn.bspace">
+  <event name="footstep" time="0.13233334" endTime="0.17317" parameter="" bone="l_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.59216666" endTime="0.64617002" parameter="" bone="r_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="Transition" time="0.92266667" endTime="0.92266667" parameter="" bone="jack_root" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="Complete" time="1" endTime="1" parameter="" bone="" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/pc/turns/jack_idle_turn_aim.bspace">
+  <event name="footstep" time="0.17316666" endTime="0.17316666" parameter="" bone="l_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="Transition" time="0.62233335" endTime="0.62233335" parameter="" bone="jack_root" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.64617002" endTime="0.64617002" parameter="" bone="r_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="Complete" time="1" endTime="1" parameter="" bone="" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/pc/transitions/idle2move.bspace">
+  <event name="footstep" time="0.044829998" endTime="0.044833332" parameter="" bone="r_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.22867" endTime="0.22867" parameter="" bone="l_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.37683001" endTime="0.37683332" parameter="" bone="r_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="Transition" time="0.40000001" endTime="1" parameter="" bone="" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.84367001" endTime="0.84367001" parameter="" bone="l_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/pc/movement/movement_shooting.bspace">
+  <event name="footstep" time="0.087666668" endTime="0.087666668" parameter="" bone="r_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="audio_trigger" time="0.11133333" endTime="0.11133333" parameter="Play_pla_fol_run" bone="r_loLeg" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.57016999" endTime="0.57016999" parameter="" bone="l_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="audio_trigger" time="0.60149997" endTime="0.60149997" parameter="Play_pla_fol_run" bone="l_loLeg" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/pc/transitions/idle2move_aim.bspace">
+  <event name="footstep" time="0.044829998" endTime="0.044829998" parameter="" bone="r_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.22867" endTime="0.22867" parameter="" bone="l_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.37683001" endTime="0.37683001" parameter="" bone="r_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="Transition" time="0.40000001" endTime="0.40000001" parameter="" bone="" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.84367001" endTime="0.84367001" parameter="" bone="l_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/pc/transitions/jack_idle2move.bspace">
+  <event name="footstep" time="0.114" endTime="0.114" parameter="" bone="l_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="audio_trigger" time="0.13816667" endTime="0.13816667" parameter="Play_pla_fol_run" bone="l_loLeg" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.29499999" endTime="0.29499999" parameter="" bone="r_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="audio_trigger" time="0.32333332" endTime="0.32333332" parameter="Play_pla_fol_run" bone="r_loLeg" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.47783333" endTime="0.47783333" parameter="" bone="l_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="audio_trigger" time="0.50383335" endTime="0.50383335" parameter="Play_pla_fol_run" bone="l_loLeg" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="Transition" time="0.55000001" endTime="0.55000001" parameter="" bone="" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.62333333" endTime="0.62333333" parameter="" bone="r_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="audio_trigger" time="0.66433334" endTime="0.66433334" parameter="Play_pla_fol_run" bone="r_loLeg" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.81866664" endTime="0.81866664" parameter="" bone="l_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="audio_trigger" time="0.84416664" endTime="0.84416664" parameter="Play_pla_fol_run" bone="l_loLeg" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/pc/movement/jack_movement.bspace">
+  <event name="footstep" time="0.087666668" endTime="0.087669998" parameter="" bone="r_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="audio_trigger" time="0.11133333" endTime="0.11133333" parameter="Play_pla_fol_run" bone="r_loLeg" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.57016665" endTime="0.57016999" parameter="" bone="l_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="audio_trigger" time="0.60149997" endTime="0.60149997" parameter="Play_pla_fol_run" bone="l_loLeg" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/pc/movement/jack_movement_combination.comb">
+  <event name="footstep" time="0.087666668" endTime="0.087666668" parameter="" bone="l_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="audio_trigger" time="0.11133333" endTime="0.11133333" parameter="Play_pla_fol_run" bone="r_loLeg" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.57016665" endTime="0.57016665" parameter="" bone="r_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="audio_trigger" time="0.60149997" endTime="0.60149997" parameter="Play_pla_fol_run" bone="l_loLeg" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/pc/movement/jack_movement_slope.bspace">
+  <event name="footstep" time="0.087666668" endTime="0.087666668" parameter="" bone="r_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="audio_trigger" time="0.11133333" endTime="0.11133333" parameter="Play_pla_fol_run" bone="r_loLeg" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.57016665" endTime="0.57016665" parameter="" bone="l_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="audio_trigger" time="0.60149997" endTime="0.60149997" parameter="Play_pla_fol_run" bone="l_loLeg" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/pc/transitions/jack_move2idle.bspace">
+  <event name="footstep" time="0.077333331" endTime="0.077333331" parameter="" bone="l_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="audio_trigger" time="0.11816666" endTime="0.11816666" parameter="Play_pla_fol_run" bone="l_loLeg" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="footstep" time="0.292" endTime="0.292" parameter="" bone="r_ball" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+  <event name="audio_trigger" time="0.3545" endTime="0.3545" parameter="Play_pla_fol_run" bone="r_loLeg" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/pc/generic/jack_take_damage.bspace">
+  <event name="HitComplete" time="1" endTime="1" parameter="" bone="" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/pc/generic/jack_death_fall_back.caf">
+  <event name="SwitchRagdoll" time="0.21933334" endTime="0.46866667" parameter="" bone="" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/pc/generic/jack_death_fall_forward.caf">
+  <event name="SwitchRagdoll" time="0.3215" endTime="0.70166665" parameter="" bone="" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/enemy/generic/enemy_death_fall_back.caf">
+  <event name="SwitchRagdoll" time="0.18333334" endTime="0.18333334" parameter="" bone="" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+ <animation name="animations/enemy/generic/enemy_death_fall_forward.caf">
+  <event name="SwitchRagdoll" time="0.56800002" endTime="0.56800002" parameter="" bone="" secondBone="" offset="0,0,0" dir="0,0,0" model=""/>
+ </animation>
+</anim_event_list>

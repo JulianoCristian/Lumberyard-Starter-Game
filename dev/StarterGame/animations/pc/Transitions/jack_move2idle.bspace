@@ -1,0 +1,22 @@
+<ParaGroup>
+ <Dimensions>
+	<Param Name="BlendWeight" Min="0" Max="1" Cells="24"/>
+	<Param Name="BlendWeight2" Min="0" Max="1.5" Cells="4"/>
+ </Dimensions>
+ <AdditionalExtraction>
+  <Param name="MoveSpeed"/>
+  <Param name="TravelSlope"/>
+ </AdditionalExtraction>
+ <ExampleList>
+  <Example SetPara0="0.5" SetPara1="0" AName="jack_run_to_idle"/>
+  <Example SetPara0="0.33333" SetPara1="0" AName="jack_run_to_idle_down"/>
+  <Example SetPara0="0.66666" SetPara1="0" AName="jack_run_to_idle_up"/>
+  <Example SetPara0="0.5" SetPara1="1" AName="jack_run_to_idle_aim"/>
+  <Example SetPara0="0.33333" SetPara1="1" AName="jack_run_to_idle_down_aim"/>
+  <Example SetPara0="0.66666" SetPara1="1" AName="jack_run_to_idle_up_aim"/>
+  </ExampleList>
+ <Blendable>
+  <Face p0="0" p1="1" p2="4" p3="3"/>
+  <Face p0="0" p1="3" p2="5" p3="2"/>
+ </Blendable>
+</ParaGroup>

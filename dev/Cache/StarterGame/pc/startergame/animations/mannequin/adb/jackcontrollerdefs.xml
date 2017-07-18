@@ -1,0 +1,24 @@
+<ControllerDef>
+ <Tags filename="Animations/Mannequin/ADB/jacktags.xml"/>
+ <Fragments filename="Animations/Mannequin/ADB/jackFragmentIdstags.xml"/>
+ <FragmentDefs>
+  <Idle scopes="FullBody" flags="AutoReinstall"/>
+  <Moving scopes="FullBody" flags="AutoReinstall"/>
+  <Aiming scopes="Aiming"/>
+  <IdleTurn scopes="FullBody" flags="AutoReinstall"/>
+  <Idle2Move scopes="FullBody" flags="AutoReinstall"/>
+  <Move2Idle scopes="FullBody" flags="AutoReinstall"/>
+  <Shoot scopes="Shoot" flags="AutoReinstall"/>
+  <Hit scopes="Hit"/>
+  <Dead scopes="FullBody" flags="AutoReinstall"/>
+ </FragmentDefs>
+ <ScopeContextDefs>
+  <MainCharacter />
+ </ScopeContextDefs>
+ <ScopeDefs>
+  <FullBody layer="0" numLayers="3" context="MainCharacter"/>
+  <Aiming layer="3" numLayers="3" context="MainCharacter"/>
+  <Shoot layer="6" numLayers="1" context="MainCharacter"/>
+  <Hit layer="7" numLayers="1" context="MainCharacter"/>
+ </ScopeDefs>
+</ControllerDef>

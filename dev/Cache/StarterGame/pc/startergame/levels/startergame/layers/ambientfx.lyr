@@ -1,0 +1,800 @@
+<ObjectLayer>
+ <Layer Name="AmbientFX" GUID="{8283A863-818F-46DD-9062-801556A41278}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1">
+  <LayerObjects>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{39943E01-A689-412E-AA14-6D4548C80087}" Name="FallingLeaves29" HideOrder="0" Pos="899.7475,984.36945,48.989285" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{044EBE01-6026-47D1-B362-A183E5C00699}" Name="Butterflies4" HideOrder="0" Pos="968.95624,1207.9529,51.944714" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{2D9C0B07-5112-4A6D-818E-7B5D989BDE54}" Name="FallingLeaves30" HideOrder="0" Pos="900.38043,977.2605,51.513817" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{921C0508-8AF2-41EF-B523-65A8E50EA2C0}" Name="SteamDamageFX5" HideOrder="0" Pos="736.99377,1104.3926,93.005272" FloorNumber="-1" Rotate="0.66400933,-0.16310939,0.14374439,-0.71541911" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Damage.SteamDamage" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{D17B8408-A9C6-46A7-B98D-5392E3FCDC0B}" Name="ElectricalSparks10" HideOrder="0" Pos="668.88873,1119.5438,103.9671" FloorNumber="-1" Rotate="-0.093634099,-0.48823819,0.74686354,-0.44164574" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Damage.ElectricalDamage" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="1" audioRTPCRtpc=""/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{C4C92109-8EDB-4B16-8C32-909CA3F5F217}" Name="Fog01" HideOrder="0" Pos="1022.2501,1179.5001,51.92244" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Fog.FogVolume" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{38F7EA0B-F085-4171-BA1D-DB218F0F9A3F}" Name="BlowingLeaves2" HideOrder="0" Pos="861.78271,890.04968,49.095039" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.BlowingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{0423440D-83F7-439C-AA74-A43EA5EC8BA6}" Name="FallingLeaves1" HideOrder="0" Pos="885.63489,1126.4371,60.370537" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{997D2A11-DB15-4612-B9B5-E734F528F479}" Name="FallingLeaves13" HideOrder="0" Pos="1015.7851,1221.4442,57.851723" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{D4DF9D11-206A-4DA4-B905-654003174BAF}" Name="Fog01" HideOrder="0" Pos="878.79028,1040.2869,43.035831" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Fog.FogVolume" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{A5EF0713-9EE8-4BAB-A02E-435B7E398C9B}" Name="BlowingLeaves6" HideOrder="0" Pos="869.77594,872.18689,51.254341" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.BlowingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{38010B13-337C-40B0-BB49-DCCDB196271D}" Name="FreezingTank6" HideOrder="0" Pos="674.76398,1131.7891,98.034592" FloorNumber="-1" Rotate="-0.011749982,0.11399495,0.98965114,-0.08635807" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.StorageRoom.FreezingTank" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{50C3B418-C2C8-47D9-B027-6D59C8FC46CA}" Name="Butterflies16" HideOrder="0" Pos="994.07153,1212.0408,51.621971" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{3708F818-30DD-47CC-AA39-323970115389}" Name="Butterflies7" HideOrder="0" Pos="1038.4053,1192.484,51.519749" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{411D8F19-B6AF-4655-8348-8E7555963808}" Name="Fog01" HideOrder="0" Pos="1006.7762,1120.3757,68.979828" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Fog.FogVolume" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{BB7EA819-9503-4519-92B8-4F2115326051}" Name="BlowingLeaves7" HideOrder="0" Pos="887.19617,841.66345,48.450005" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.BlowingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{DF7B8A1B-0D63-4F44-B742-06D18BF33548}" Name="WindArea2" HideOrder="0" Pos="856.4812,860.28308,65.758537" FloorNumber="-1" Rotate="0.8571673,0,0,-0.51503807" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="WindArea">
+    <Properties bActive="1" AirDensity="0" AirResistance="0" bEllipsoidal="1" FalloffInner="0" Speed="1">
+     <Dir x="-20" y="0" z="0"/>
+     <Size x="60" y="20" z="20"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{36BA3D1D-FF60-4B19-A16C-E8C09F669B44}" Name="WindArea3" HideOrder="0" Pos="819.40723,1111.9967,99.770126" FloorNumber="-1" Rotate="0.71933979,0,0,-0.69465834" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="WindArea">
+    <Properties bActive="1" AirDensity="0" AirResistance="0" bEllipsoidal="1" FalloffInner="0" Speed="1">
+     <Dir x="0" y="20" z="0"/>
+     <Size x="60" y="20" z="20"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{33B38921-3FCB-4158-A5FC-D7900260B14D}" Name="FlyingSeeds01" HideOrder="0" Pos="987.99988,1158.6726,54.0802" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.FlyingSeeds.FlyingSeeds" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{35158B21-5E8F-4A7C-903B-7F835BC9EBAB}" Name="FreezingTank5" HideOrder="0" Pos="670.50397,1132.785,98.050201" FloorNumber="-1" Rotate="-0.011749982,0.11399495,0.98965114,-0.08635807" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.StorageRoom.FreezingTank" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{BA488B22-65D6-41AC-9D88-B1586DE4703C}" Name="Butterflies8" HideOrder="0" Pos="1026.1748,1191.3073,51.891945" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{22815224-AAF0-45F8-8A5A-73E2E5C7F243}" Name="Fog01" HideOrder="0" Pos="974.90027,888.40015,51.951916" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Fog.FogVolume" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{82E27C24-067B-460F-ADC3-A495A7AF0FB5}" Name="FallingLeaves16" HideOrder="0" Pos="1009.0831,1217.4729,57.851723" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{6E489C25-6B55-44C3-86FB-B34C1C3CE843}" Name="FreezingTank7" HideOrder="0" Pos="679.02411,1130.7931,98.018982" FloorNumber="-1" Rotate="-0.011749982,0.11399495,0.98965114,-0.08635807" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.StorageRoom.FreezingTank" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{4991A126-FBFE-4F9E-BF72-B5C8A8D437D4}" Name="Fog01" HideOrder="0" Pos="978.5304,1166.1632,52.535236" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Fog.FogVolume" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{620F082F-7471-4064-A6DC-8ECD1B490273}" Name="Butterflies4" HideOrder="0" Pos="1012.8668,1234.7823,55.907932" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{F6D06D30-56E8-4520-9CC9-C36D9FA7791E}" Name="Butterflies11" HideOrder="0" Pos="993.43109,1167.3369,52.727779" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{78671431-AB3B-4A58-82FE-7C50B0B7053F}" Name="Butterflies13" HideOrder="0" Pos="1005.6342,1182.6827,52.321613" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{ADAFAF31-DB0F-4D3D-ABD7-FC16653A1538}" Name="FallingLeaves26" HideOrder="0" Pos="887.01324,1025.2706,45.556442" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{7148C633-0CE3-43FF-A0CF-1ACB860F1E58}" Name="Butterflies4" HideOrder="0" Pos="1022.7338,1235.7346,56.842266" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{3FD9E233-185C-4006-96D4-1C7D3C3DAEFE}" Name="fx_hologrammap_planet_moons" HideOrder="0" Pos="743.802,1107.587,96.153473" FloorNumber="-1" Rotate="1,0,0,0" Scale="1.15,1.15,1.15" ColorRGB="65535" Material="objects/effects/hologrammapmat_matgroup" Geometry="Objects/effects/hologrammap.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="0.15" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{7AAE7536-16B9-49FF-8AD4-558A2CB38F0D}" Name="Butterflies12" HideOrder="0" Pos="1011.124,1174.6575,52.264748" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{9DC39737-69AB-4F87-8626-39BEB1C32BDB}" Name="fx_binarystreamOuter2" HideOrder="0" Pos="743.69,1107.84,96.140015" FloorNumber="-1" Rotate="0.48790017,0.07283777,0.14436102,0.8577925" Scale="1.15,1.1500001,1.1500001" ColorRGB="16776960" Geometry="Objects/effects/binarystreamouter.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="0.15" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{3F7FB939-79CD-4DA0-860C-A8EB60536DC7}" Name="BirdsFlying01" HideOrder="0" Pos="892.04999,1165.2999,148.9019" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="Birds.Birds.BirdsFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{98C1133A-7041-431E-AFC1-795FE8ED4BBB}" Name="FallingLeaves3" HideOrder="0" Pos="945.46973,1114.3744,54.637047" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{D9C1783B-6E26-4220-88D3-CE7C26523EB0}" Name="HologramEffects" HideOrder="0" Pos="743.85205,1107.587,96.105385" FloorNumber="-1" Rotate="1,0,0,0" Scale="1.15,1.15,1.15" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="HologramMap.HologramMap.HologramGlows" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+    <FlowGraph Description="" Group="Hologram" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="1" Class="Game:Start" pos="-50,120,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="2" Class="Movement:RotateEntity" pos="220,-50,0" flags="0" EntityGUID="{3FD9E233-185C-4006-96D4-1C7D3C3DAEFE}" EntityGUID_64="4006185C3FD9E233">
+       <Inputs Velocity="0,0,10" Reference="0"/>
+      </Node>
+      <Node Id="3" Class="Movement:RotateEntity" pos="221.16029,193.83301,0" flags="0" GraphEntity="0">
+       <Inputs Velocity="0,0,10" Reference="0"/>
+      </Node>
+      <Node Id="6" Class="Movement:RotateEntity" pos="240,330,0" flags="0" EntityGUID="{E5406B98-FD86-4AC6-8678-F2C5D55E7040}" EntityGUID_64="4AC6FD86E5406B98">
+       <Inputs Velocity="0,0,-9" Reference="1"/>
+      </Node>
+      <Node Id="7" Class="Movement:RotateEntity" pos="230,450,0" flags="0" EntityGUID="{2D46CD97-B37A-47E0-B32C-EA479AD33D9B}" EntityGUID_64="47E0B37A2D46CD97">
+       <Inputs Velocity="0,0,-9" Reference="1"/>
+      </Node>
+      <Node Id="10" Class="Movement:RotateEntity" pos="220,80,0" flags="0" EntityGUID="{B68E0A6B-5A76-4669-A5FA-765E0E6BE3E7}" EntityGUID_64="46695A76B68E0A6B">
+       <Inputs Velocity="0,0,-8" Reference="0"/>
+      </Node>
+      <Node Id="11" Class="Movement:RotateEntity" pos="238,575,0" flags="0" EntityGUID="{321433B2-EC3B-43D1-9986-D703B24350E7}" EntityGUID_64="43D1EC3B321433B2">
+       <Inputs Velocity="0,0,7" Reference="1"/>
+      </Node>
+      <Node Id="12" Class="Movement:RotateEntity" pos="240,700,0" flags="0" EntityGUID="{9DC39737-69AB-4F87-8626-39BEB1C32BDB}" EntityGUID_64="4F8769AB9DC39737">
+       <Inputs Velocity="0,0,-8" Reference="1"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="2" nodeOut="1" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="3" nodeOut="1" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="6" nodeOut="1" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="7" nodeOut="1" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="10" nodeOut="1" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="1" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="12" nodeOut="1" portIn="Enable" portOut="output" enabled="1"/>
+     </Edges>
+     <HyperGraphId Id="{56C59955-6E51-468E-96AD-4DD862E99B3B}"/>
+     <GraphTokens />
+    </FlowGraph>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{7E8A283F-FF69-4998-AD22-38D5BA45722A}" Name="SteamDamageFX3" HideOrder="0" Pos="722.46271,1110.9309,99.801247" FloorNumber="-1" Rotate="-0.19039433,0.94623566,0.1024548,0.24060573" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Damage.SteamDamage" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{60B22340-3322-4140-8546-04BB8AFBFAEB}" Name="ElectricalSparks8" HideOrder="0" Pos="678.13873,1100.9189,102.4671" FloorNumber="-1" Rotate="0.70846331,-0.56749725,-0.38676429,0.16260402" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Damage.ElectricalDamage" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="1" audioRTPCRtpc=""/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{EC2B7842-C729-4D12-BD5C-DA4E21823DC1}" Name="Fog01" HideOrder="0" Pos="969.19965,1221.834,53.616684" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Fog.FogVolume" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{A6292D45-BE2A-4BA3-98AF-C7F71ED67242}" Name="Butterflies15" HideOrder="0" Pos="1011.2983,1212.8557,51.925091" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{25938445-F4F2-4E75-9679-0F76762B8FCE}" Name="BirdsFlying01" HideOrder="0" Pos="1225.2,1106.2501,156.50192" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="Birds.Birds.BirdsFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{EC0DB046-5E24-4171-9F21-A43C56B4451F}" Name="BlowingLeaves3" HideOrder="0" Pos="805.47968,1096.2433,87.58007" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.BlowingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{EA5AB848-1DD5-467C-9B6A-F03B8AFA0334}" Name="FreezingTankFloor1" HideOrder="0" Pos="672.38489,1093.1698,93.251915" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.StorageRoom.FreezingTankFloor" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{80061C4A-75BB-48C0-80E4-7342C82D0BDA}" Name="FlyingSeeds01" HideOrder="0" Pos="966.09991,1199.0002,52.562252" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.FlyingSeeds.FlyingSeeds" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{651E994C-6848-45DD-BDFC-EEAA833FE77F}" Name="FallingLeaves5" HideOrder="0" Pos="963.65479,1134.3342,55.163719" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{06AF014E-7856-451E-B6D4-B86C81623B32}" Name="FreezingTankFloor1" HideOrder="0" Pos="680.51129,1128.369,93.251915" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.StorageRoom.FreezingTankFloor" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{2AA17550-DEB4-4196-A33E-011B652DA7CC}" Name="Butterflies5" HideOrder="0" Pos="1052.2875,1216.6589,56.017136" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{5C85DE50-0F65-434F-A00F-DD40698AAF0D}" Name="WireSparksFX1" HideOrder="0" Pos="747.18549,1108.4893,93.289986" FloorNumber="-1" Rotate="0.77877712,0.13840796,-0.59757692,0.13134426" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Damage.ElectricalDamageWires" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{3D1D8053-E36C-4C03-A856-EE1BDA5F3F45}" Name="FallingLeaves19" HideOrder="0" Pos="1015.2034,1175.257,56.081177" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{944A5F54-1A5C-43AC-B809-8EAA070F77E1}" Name="BlowingLeaves10" HideOrder="0" Pos="966.71967,1054.3997,83.070229" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.BlowingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{448D8254-309E-424D-B5ED-C0587617C1F4}" Name="WireSparksFX3" HideOrder="0" Pos="718.66272,1106.7485,93.289986" FloorNumber="-1" Rotate="0.78298026,2.306955e-05,-0.62025237,-0.047210965" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Damage.ElectricalDamageWires" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{8CB7BD54-617E-4E7E-901F-F3D76F8EA7B3}" Name="Fog01" HideOrder="0" Pos="955.5097,886.07196,48.798443" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Fog.FogVolume" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{ECBCD45C-2EC2-4712-9DF3-274407F691EA}" Name="FlyingSeeds01" HideOrder="0" Pos="1074.4116,1096.3503,51.201927" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.FlyingSeeds.FlyingSeeds" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{DAC5445D-39A9-4AA7-B952-4CB0A5BEB2DF}" Name="FlyingSeeds01" HideOrder="0" Pos="775.89008,1108.3966,90.207001" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.FlyingSeeds.FlyingSeeds" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{3CC6465E-8940-4144-9DB5-1E797154BE82}" Name="FreezingTank4" HideOrder="0" Pos="687.66602,1128.7727,97.987312" FloorNumber="-1" Rotate="-0.011749982,0.11399495,0.98965114,-0.08635807" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.StorageRoom.FreezingTank" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{69C3B65E-DE2B-476C-8AC8-C047BDDAA52B}" Name="FallingLeaves23" HideOrder="0" Pos="876.4079,1066.6461,52.126236" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{366FB85E-17C9-49CE-82B6-A4D27573754A}" Name="Fog01" HideOrder="0" Pos="958.36792,1069.1823,75.315033" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Fog.FogVolume" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{BD34EC60-1004-45CB-93E3-F09A9C107643}" Name="BlowingLeaves1" HideOrder="0" Pos="810.99591,1125.8695,76.759712" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.BlowingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{EE836F62-6AAC-4BC1-9ADF-53F0DE983129}" Name="Butterflies4" HideOrder="0" Pos="982.77014,1177.3552,51.600986" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{10C2BC63-DCBB-48CE-89C8-34337F07E0EC}" Name="FallingLeaves25" HideOrder="0" Pos="874.24854,1034.8405,47.421425" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{2BDBFF65-B939-4FCE-9325-06DBA2003B71}" Name="FreezingTank3" HideOrder="0" Pos="691.92615,1127.7767,97.971703" FloorNumber="-1" Rotate="-0.011749982,0.11399495,0.98965114,-0.08635807" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.StorageRoom.FreezingTank" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{A7CF6969-0677-42A4-AC20-7A05DB4604F4}" Name="BackgroundSmokeFX4" HideOrder="0" Pos="748.78906,1111.0374,92.946686" FloorNumber="-1" Rotate="0.96592581,0,0,-0.25881904" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Fog.FogVolumeInterior" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{B19D7869-7745-4E5F-8789-42C6FE943A95}" Name="FlyingSeeds01" HideOrder="0" Pos="875.66437,1053.1697,45.994663" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.FlyingSeeds.FlyingSeeds" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{B68E0A6B-5A76-4669-A5FA-765E0E6BE3E7}" Name="fx_hologrammap_moons" HideOrder="0" Pos="743.802,1107.5748,96.153473" FloorNumber="-1" Rotate="1,0,0,0" Scale="1.15,1.15,1.15" ColorRGB="65535" Material="objects/effects/hologrammapmat_matgroup" Geometry="Objects/effects/hologrammapmoons.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="0.15" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{8824416B-240B-4026-ADCC-3571CB824B42}" Name="FreezingTank1" HideOrder="0" Pos="674.28546,1090.708,97.881134" FloorNumber="-1" Rotate="-0.0082235401,-0.11430347,-0.98961204,-0.086805001" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.StorageRoom.FreezingTank" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{AE103C6E-E1A8-4CE4-8084-4E3FC4A955B0}" Name="BackgroundSmokeFX3" HideOrder="0" Pos="738.2027,1104.0533,92.946686" FloorNumber="-1" Rotate="0.96126169,0,0,-0.27563736" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Fog.FogVolumeInterior" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{052B8B6E-8E14-4121-88B9-71947FB926CA}" Name="Butterflies4" HideOrder="0" Pos="989.32611,1229.3813,53.627728" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{2EB3616F-BFC4-4BD2-BA26-C8CE65B7FF19}" Name="BirdsFlying01" HideOrder="0" Pos="930.20001,996.14996,156.50192" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="Birds.Birds.BirdsFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{4F09736F-FC74-4804-8498-911AEB1FAB89}" Name="BlowingLeaves4" HideOrder="0" Pos="804.68445,1102.3546,90.774445" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.BlowingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{5939CE6F-68EF-425E-8697-26D548284E78}" Name="FallingLeaves14" HideOrder="0" Pos="1058.5677,1200.4861,59.150768" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{38CC1070-B598-482D-8689-FF8B1E57C978}" Name="BackgroundSmokeFX2" HideOrder="0" Pos="720.18024,1111.6699,92.946686" FloorNumber="-1" Rotate="0.99357182,0,0,0.11320323" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Fog.FogVolumeInterior" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{B89D3A73-47D2-4C88-9A0D-31B189AD5DF2}" Name="ElectricalSparks3" HideOrder="0" Pos="709.45093,1110.5481,96.231895" FloorNumber="-1" Rotate="0.8613928,0.40667772,0.30295691,-0.028858388" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Damage.ElectricalDamage" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="1" audioRTPCRtpc=""/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{98E2E477-6F83-4D82-8584-4BCFF2D94F01}" Name="BackgroundSmokeFX1" HideOrder="0" Pos="714.72516,1102.9979,92.946686" FloorNumber="-1" Rotate="0.99357182,0,0,0.11320323" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Fog.FogVolumeInterior" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{4D720178-A08E-4602-BC92-4B03F228476F}" Name="Butterflies14" HideOrder="0" Pos="1015.5775,1200.7642,51.506413" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{2776FF7A-6148-4AE5-9550-7809A001A6AC}" Name="FallingLeaves15" HideOrder="0" Pos="1020.8804,1210.4493,57.851723" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="Brush" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{881A987B-86D7-41B6-B570-F9A341AAF7A9}" Name="fx_vulcanosmoke_1" HideOrder="0" Pos="1982.3043,1049.7928,427.29999" FloorNumber="-1" Rotate="0.71933973,0,0,0.69465846" ColorRGB="16777215" Prefab="Objects/effects/fx_vulcanosmoke_01.cgf" OutdoorOnly="0" CastShadowMaps="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistanceMultiplier="1" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="0">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{CE88CD7D-108D-4F52-A8B3-7DE759756D71}" Name="FallingLeaves9" HideOrder="0" Pos="971.60504,1199.3311,54.204178" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{B7CB107E-7A38-4EE9-87B6-250D64AC1AF9}" Name="ElectricalSparks01" HideOrder="0" Pos="722.92694,1113.0674,96.898613" FloorNumber="-1" Rotate="0.87881714,0.47715873,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Damage.ElectricalDamage" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="1" audioRTPCRtpc=""/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{37E01180-8CE0-45EE-AD71-3E99D0D446B0}" Name="ElectricalSparks7" HideOrder="0" Pos="716.15222,1103.5892,97.812866" FloorNumber="-1" Rotate="0.90568721,-0.39639357,-0.14975215,0.013307298" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Damage.ElectricalDamage" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="1" audioRTPCRtpc=""/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{A00E8081-B367-450A-96CD-D6FC685E50E2}" Name="FallingLeaves7" HideOrder="0" Pos="983.24652,1184.6359,54.204178" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{6DF52082-B5E2-45A4-A0EC-6BBB4ED3173D}" Name="ElectricalSparks5" HideOrder="0" Pos="747.83405,1101.4807,97.431534" FloorNumber="-1" Rotate="0.95292288,-0.26259246,0.038907513,-0.14652431" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Damage.ElectricalDamage" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="1" audioRTPCRtpc=""/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{70E39E82-BA56-4E70-B2DA-23DD8D23D407}" Name="SteamDamageFX2" HideOrder="0" Pos="740.99524,1110.4161,99.865608" FloorNumber="-1" Rotate="-0.19039433,0.94623566,0.1024548,0.24060573" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Damage.SteamDamage" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{F3B31284-74CC-44B2-B963-7CDB0C78EBEC}" Name="BlowingLeaves11" HideOrder="0" Pos="1005.6542,1038.7356,94.844254" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.BlowingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{F2C5FB84-9D5B-42F6-83DA-020DA5033FBE}" Name="Butterflies2" HideOrder="0" Pos="979.95343,1148.7218,52.727779" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{35812686-2401-4C0C-8F97-D59CDC99CA66}" Name="FlyingSeeds01" HideOrder="0" Pos="930.47308,905.27777,49.051918" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.FlyingSeeds.FlyingSeeds" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{30A5E686-261E-49F0-8E99-60EBDA293D25}" Name="Butterflies3" HideOrder="0" Pos="981.66901,1164.9327,52.727779" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{F5083488-7C3C-4D31-AE64-AB7593EA515E}" Name="FallingLeaves24" HideOrder="0" Pos="875.29095,1029.5371,46.796986" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{D546B488-3C13-4B53-817E-C15F01F921E9}" Name="FlyingSeeds01" HideOrder="0" Pos="981.14996,879.84998,51.40192" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.FlyingSeeds.FlyingSeeds" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{60D31C89-FFA8-4F82-A028-03F593D00CF1}" Name="Butterflies10" HideOrder="0" Pos="1029.1207,1174.7223,52.417397" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{AF6CA990-EF65-4833-8D79-1EF781455784}" Name="FreezingTank1" HideOrder="0" Pos="665.64349,1092.7284,97.912804" FloorNumber="-1" Rotate="-0.0082235401,-0.11430347,-0.98961204,-0.086805001" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.StorageRoom.FreezingTank" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{4E9B6E92-26A3-47C8-B92C-DB1BF2F7FFDD}" Name="BlowingLeaves9" HideOrder="0" Pos="977.75128,1079.8989,78.453407" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.BlowingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{B4B0B492-AEBB-45F5-956B-08191A5575AE}" Name="Butterflies4" HideOrder="0" Pos="968.599,1214.8043,52.866692" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{F7B3E695-DCC3-42C4-94AA-74F179C81119}" Name="FlyingSeeds01" HideOrder="0" Pos="882.49994,1108.4,54.700603" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.FlyingSeeds.FlyingSeeds" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="Brush" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{D4402897-D21B-4BD9-99CF-43A599BC391C}" Name="fx_vulcanosmoke_2" HideOrder="0" Pos="732.61383,1934.8005,407" FloorNumber="-1" Rotate="-0.017452559,0,0,0.99984771" Scale="1.4300001,1.4300001,1.4299999" ColorRGB="16777215" Prefab="Objects/effects/fx_vulcanosmoke_01.cgf" OutdoorOnly="0" CastShadowMaps="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistanceMultiplier="1" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="0">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="GeomEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{2D46CD97-B37A-47E0-B32C-EA479AD33D9B}" Name="fx_binarystream2" HideOrder="0" Pos="743.79999,1107.58,96.139999" FloorNumber="-1" Rotate="0.65066719,-0.2432745,0.25191814,0.67378557" Scale="1.1500001,1.1499996,1.1499996" ColorRGB="16776960" Geometry="Objects/effects/binarystream.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="0.15" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{60DCE097-1F19-4330-8085-56143283AAA6}" Name="BirdsFlying01" HideOrder="0" Pos="1092.8999,925.39996,156.50192" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="Birds.Birds.BirdsFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{E5406B98-FD86-4AC6-8678-F2C5D55E7040}" Name="fx_binarystream1" HideOrder="0" Pos="743.80206,1107.587,96.203468" FloorNumber="-1" Rotate="0.95881969,0.28401536,0,0" Scale="1.15,1.1500001,1.1500001" ColorRGB="16776960" Geometry="Objects/effects/binarystream.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="0.15" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{FE91FAA0-E1EA-4B30-B7B3-BECD2D7BE17E}" Name="FreezingTank2" HideOrder="0" Pos="683.40594,1129.7687,98.002922" FloorNumber="-1" Rotate="-0.011749982,0.11399495,0.98965114,-0.08635807" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.StorageRoom.FreezingTank" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{8BF05DA2-3898-4F34-AD5E-48F054BD5DEF}" Name="WireSparksFX2" HideOrder="0" Pos="739.40863,1107.5774,93.289986" FloorNumber="-1" Rotate="-0.1356077,0.60982639,0.14600644,0.7670753" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Damage.ElectricalDamageWires" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{6BCA02A6-DC50-4BC3-9AED-7D28855CEF5F}" Name="FallingLeaves6" HideOrder="0" Pos="974.79089,1170.5933,55.942402" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{F3CED1A6-B269-4389-A23E-BCBAA34DFE57}" Name="FallingLeaves12" HideOrder="0" Pos="1018.7173,1236.0659,59.767792" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{62D91FA7-13F3-4BFD-8E18-FDC2D3C68EF2}" Name="FallingLeaves18" HideOrder="0" Pos="1003.4205,1189.5089,56.081177" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{8122CBAB-85E5-4B8A-AD8D-F9C4EDF5FF6D}" Name="Butterflies4" HideOrder="0" Pos="1029.3241,1227.8708,56.842266" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{254656AD-92E9-47F4-8370-DDE8FC1F0BF4}" Name="Butterflies6" HideOrder="0" Pos="1035.3052,1201.1093,52.691593" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{EAA276AD-62A0-42DA-88F0-6ADBC6C8B25F}" Name="Butterflies1" HideOrder="0" Pos="975.53253,1143.5995,52.727779" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{5E0E83AD-C005-431A-B49B-640D42EF186F}" Name="FreezingTank1" HideOrder="0" Pos="678.54553,1089.712,97.865524" FloorNumber="-1" Rotate="-0.0082235401,-0.11430347,-0.98961204,-0.086805001" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.StorageRoom.FreezingTank" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{321433B2-EC3B-43D1-9986-D703B24350E7}" Name="fx_binarystreamOuter1" HideOrder="0" Pos="743.69,1107.84,96.139999" FloorNumber="-1" Rotate="0.9876883,0.15643448,0,0" Scale="1.15,1.1500001,1.1500001" ColorRGB="65535" Geometry="Objects/effects/binarystreamouter.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="0.15" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{A7F9DFB2-A574-477B-9C4E-99DAFA2BAB51}" Name="Butterflies4" HideOrder="0" Pos="1006.397,1243.2239,54.550823" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{6A577BB3-6510-45F3-BEA4-03E6014BEA08}" Name="FallingLeaves11" HideOrder="0" Pos="1011.1302,1221.8846,56.254204" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{594282B4-8FCF-44B8-BEA1-C4AD3B097469}" Name="FlyingSeeds3" HideOrder="0" Pos="790.48303,1095.1952,91.089737" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.FlyingSeeds.FlyingSeeds" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{5BF727B5-301F-427F-BBE8-897BBBA4AB32}" Name="FallingLeaves10" HideOrder="0" Pos="972.46271,1208.7162,54.204178" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{149B7BB5-3DF8-47C0-87F4-6D98F6B76E00}" Name="ElectricalSparks6" HideOrder="0" Pos="750.98083,1111.6165,96.819206" FloorNumber="-1" Rotate="0.91586071,0.37177408,-0.058330953,-0.13993095" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Damage.ElectricalDamage" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="1" audioRTPCRtpc=""/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{ECA6A2B6-0C13-4C8C-A476-48FE0007E78A}" Name="FlyingSeeds01" HideOrder="0" Pos="1034.4324,1223.407,57.374691" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.FlyingSeeds.FlyingSeeds" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{EDFE43B9-CD44-4945-92D2-87BA8CA517BA}" Name="Butterflies9" HideOrder="0" Pos="1021.2443,1182.0187,52.204174" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{39A3CAB9-F18C-45D7-AFF9-BADEF17F7B31}" Name="FallingLeaves8" HideOrder="0" Pos="988.62415,1180.3114,54.204178" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{51A78BBB-5F14-47B6-9077-292048F2C50C}" Name="FlyingSeeds01" HideOrder="0" Pos="964.1499,1126.2501,51.951923" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.FlyingSeeds.FlyingSeeds" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{45BFBABC-1F66-477D-ACE3-FC5050CE1441}" Name="BirdsFlying01" HideOrder="0" Pos="906.25,802.59991,156.50192" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="Birds.Birds.BirdsFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{829F25C2-40D1-4088-9EAB-2AB6D5DC34AB}" Name="Butterflies4" HideOrder="0" Pos="975.06116,1221.8789,53.466576" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{B072C8C2-31E8-4EC9-B34A-9D8AABAEFE21}" Name="BlowingLeaves12" HideOrder="0" Pos="1022.3774,1046.9746,94.844254" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.BlowingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{1810D0C3-EDAA-4839-A6AD-746DBAFF2A25}" Name="FallingLeaves2" HideOrder="0" Pos="914.83234,1102.8503,56.977413" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{4C2EB8C5-3488-44BD-AAE9-E3D4E5DD70AB}" Name="BlowingLeaves8" HideOrder="0" Pos="961.4035,1079.8989,78.327919" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.BlowingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{CCD620C6-A7C9-4258-B14E-449ACAD008D5}" Name="FlyingSeeds01" HideOrder="0" Pos="857.77808,1108.4,62.839508" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.FlyingSeeds.FlyingSeeds" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{FE7631C7-85B2-44B5-A7EC-7E5546D14D94}" Name="ElectricalSparks2" HideOrder="0" Pos="725.11707,1104.9365,95.304459" FloorNumber="-1" Rotate="0.91250747,-0.37043875,-0.17225093,-0.020852996" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Damage.ElectricalDamage" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="1" audioRTPCRtpc=""/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{A10C85C8-6131-4E07-8B6B-4F11B28B0E58}" Name="FlyingSeeds01" HideOrder="0" Pos="917.87506,981.0166,50.809681" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.FlyingSeeds.FlyingSeeds" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{9B0D6AC9-345E-41D9-B43E-1288D1FFD627}" Name="Fog01" HideOrder="0" Pos="853.83789,1118.3411,63.102661" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Fog.FogVolume" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{0C22F1CA-1B3C-40E2-BA70-C53CDFA870D5}" Name="BirdsFlying01" HideOrder="0" Pos="1003.4001,1317.5502,156.50192" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="Birds.Birds.BirdsFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{3A9C07D7-D0FB-45C3-8C3A-624599A49635}" Name="FlyingSeeds2" HideOrder="0" Pos="1014.6599,1196.9111,51.67511" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.FlyingSeeds.FlyingSeeds" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{ADC0AAD7-4CAD-4598-8C6E-7CD4EF37CFE2}" Name="FreezingTank1" HideOrder="0" Pos="669.90363,1091.7324,97.897194" FloorNumber="-1" Rotate="-0.0082235401,-0.11430347,-0.98961204,-0.086805001" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.StorageRoom.FreezingTank" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{5676D5D7-3517-44B5-AD0E-F56021F593A9}" Name="Butterflies4" HideOrder="0" Pos="966.41846,1190.3756,52.757008" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{8E8570D9-4431-4285-B76D-F13861D7A72B}" Name="SteamDamageFX1" HideOrder="0" Pos="745.26752,1104.9836,99.865608" FloorNumber="-1" Rotate="0.23608354,0.97019154,0.040036652,0.037283082" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Damage.SteamDamage" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{27DE8CDA-9F0C-4230-84AC-E52F71D8CA43}" Name="FallingLeaves17" HideOrder="0" Pos="1008.4219,1199.8037,56.081177" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{FDEA79DB-FDAA-42BA-87D2-D51D4725BEB7}" Name="FallingLeaves27" HideOrder="0" Pos="876.53558,1006.8432,45.093384" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{0B9F97DC-028E-43B4-BC2D-17E560FE9538}" Name="ElectricalSparks9" HideOrder="0" Pos="664.63873,1096.5439,103.9671" FloorNumber="-1" Rotate="0.84789026,-0.5074842,-0.055996217,0.14285098" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Damage.ElectricalDamage" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="1" audioRTPCRtpc=""/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{2CA5EDDC-F0CA-4FCF-906F-50165B5D03D7}" Name="FallingLeaves4" HideOrder="0" Pos="967.76868,1134.3342,55.823223" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{07C3DEE0-C14B-4099-A33E-092E092A8DBC}" Name="Butterflies4" HideOrder="0" Pos="1042.0341,1209.1025,54.512871" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Butterflies.ButterfliesFlying" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{46CD67E4-A210-49B1-8B35-EF98B189A9F5}" Name="Fog01" HideOrder="0" Pos="915.19739,973.34607,48.20192" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Fog.FogVolume" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{3108F0E4-CF38-4E22-8C5C-D5D0AF2A8A8E}" Name="Fog01" HideOrder="0" Pos="818.27722,1127.8068,75.869156" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Fog.FogVolume" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{4EF20EE5-BD71-48C3-A10A-333115CBFC17}" Name="FreezingTank1" HideOrder="0" Pos="682.80566,1088.7161,97.849915" FloorNumber="-1" Rotate="-0.0082235401,-0.11430347,-0.98961204,-0.086805001" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.StorageRoom.FreezingTank" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{265024E7-FDB7-46F7-B06B-6E1C6A65EF84}" Name="ElectricalSparks4" HideOrder="0" Pos="743.2373,1112.014,97.176376" FloorNumber="-1" Rotate="0.80135947,0.54195637,0.25121102,-0.031612255" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Damage.ElectricalDamage" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="1" audioRTPCRtpc=""/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{7C5448E7-7658-4D1D-9135-2769E7346C6B}" Name="Fog01" HideOrder="0" Pos="868.48456,1079.2643,51.556271" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Fog.FogVolume" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{065D2AE8-5E7E-4038-AB10-0A97BE9E1290}" Name="FallingLeaves22" HideOrder="0" Pos="879.31018,1077.3433,54.790623" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{573190EB-902F-4173-942C-E9E9BE780A63}" Name="FallingLeaves21" HideOrder="0" Pos="1019.6557,1123.1401,71.556908" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{BA68F2EC-BE16-41B7-A17E-D01C7DFB6054}" Name="WindArea1" HideOrder="0" Pos="959.40466,1048.5719,118.91118" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="WindArea">
+    <Properties bActive="1" AirDensity="0" AirResistance="0" bEllipsoidal="1" FalloffInner="0" Speed="1">
+     <Dir x="-20" y="0" z="0"/>
+     <Size x="120" y="70" z="20"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{0BCFBCF6-3C70-4737-885E-D22EF4DD4918}" Name="SteamDamageFX4" HideOrder="0" Pos="714.22473,1104.4364,99.90332" FloorNumber="-1" Rotate="0.18223551,0.98325491,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Damage.SteamDamage" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{8059D6FA-E9FC-4A27-8C94-055AFCCADDFF}" Name="FreezingTank1" HideOrder="0" Pos="661.38348,1093.7244,97.928413" FloorNumber="-1" Rotate="-0.0082235401,-0.11430347,-0.98961204,-0.086805001" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.StorageRoom.FreezingTank" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{F1A9DBFA-BCC1-412A-9133-A009F48D410A}" Name="FallingLeaves28" HideOrder="0" Pos="874.10388,989.51282,48.075001" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{1098D7FE-A549-4BDD-8230-94EAF0A43EC3}" Name="FlyingSeeds01" HideOrder="0" Pos="1005.0676,1050.7953,90.251923" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.FlyingSeeds.FlyingSeeds" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{8C334AFF-9D5C-4923-B0A4-E70AC60DEE3B}" Name="Fog01" HideOrder="0" Pos="1037.4967,1205.9862,53.637741" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Fog.FogVolume" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{C88C83FF-4A1D-4221-892C-C395B47B7638}" Name="BlowingLeaves5" HideOrder="0" Pos="804.68445,1126.8912,83.49218" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.BlowingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+   <Object Type="ParticleEntity" Layer="AmbientFX" LayerGUID="{8283A863-818F-46DD-9062-801556A41278}" Id="{418785FF-B6EC-4C44-B58A-5663B6DD1451}" Name="FallingLeaves20" HideOrder="0" Pos="993.45337,1174.5818,56.508911" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="ParticleEffect">
+    <Properties bActive="1" esAttachForm="" esAttachType="" Comment="" bCountPerUnit="0" CountScale="1" NetworkSync="0" ParticleEffect="AmbientFX.Leaves.FallingLeaves" bPrime="1" PulsePeriod="0" bRegisterByBBox="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1" Strength="-1" TimeScale="1">
+     <Audio bEnableAudio="0" audioRTPCRtpc="particlefx"/>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

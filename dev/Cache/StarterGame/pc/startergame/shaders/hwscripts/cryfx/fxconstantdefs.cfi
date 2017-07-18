@@ -1,0 +1,323 @@
+/*
+* All or portions of this file Copyright (c) Amazon.com, Inc. or its affiliates or
+* its licensors.
+*
+* For complete copyright and license terms please see the LICENSE at the root of this
+* distribution (the "License"). All use of this software is governed by the License,
+* or, if provided, by the license below or the license accompanying this file. Do not
+* remove or modify any license notices. This file is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+*
+*/
+// Original file Copyright Crytek GMBH or its affiliates, used under license.
+
+#if SMALL_UNIFORM_BUFFERS
+// This is the maximum number of bones we can fit into 16k of space, which is
+// the maximum size of uniform/constant buffer memory some GPUs have
+#define MAX_BONES 512
+#else
+#define MAX_BONES 768
+#endif
+#define MAX_NUM_BONES_PER_GROUP 250
+#define MAX_NUM_BONES_PER_GROUP_WITH_MB 125
+
+//============================================================================
+//                        Constants Buffers Offsets
+//============================================================================
+// Parameter semantic prefixes:
+// PF - Per-Frame
+// PB - Per-Batch
+// PI - Per-Instance
+// PM - Per-Material
+// PL - Per-Light group
+
+//============================================================================
+// Warning: the offsets must be in correlation with the offsets set
+// by the texture modulation matrices which are hard coded offsets.   
+// This means that the location of the following offsets must start at:
+//      EFTT_MAX * 2 : VS_REG_PM_0 = VS_DIFFUSE_COL    (0 + EFTT_MAX * 2)
+//============================================================================
+// VS offsets for material usage
+#define VS_REG_PM_X c0
+
+#define VS_REG_PM_0 c32
+#define VS_REG_PM_1 c33
+#define VS_REG_PM_2 c34
+#define VS_REG_PM_3 c35
+#define VS_REG_PM_4 c36
+#define VS_REG_PM_5 c37
+#define VS_REG_PM_6 c38
+#define VS_REG_PM_7 c39
+#define VS_REG_PM_8 c40
+#define VS_REG_PM_9 c41
+#define VS_REG_PM_10 c42
+#define VS_REG_PM_11 c43
+#define VS_REG_PM_12 c44
+
+//=============================================================================
+// Per geometry batch constant offsets
+#define VS_REG_PB_0 c0
+#define VS_REG_PB_1 c1
+#define VS_REG_PB_2 c2
+#define VS_REG_PB_3 c3
+#define VS_REG_PB_4 c4
+#define VS_REG_PB_5 c5
+#define VS_REG_PB_6 c6
+#define VS_REG_PB_7 c7
+#define VS_REG_PB_8 c8
+#define VS_REG_PB_9 c9
+#define VS_REG_PB_10 c10
+
+//============================================================================
+// Warning: the offsets must be in correlation with the offsets set
+// by the texture modulation matrices which is hard coded offsets.   
+// This means that the location of the following offsets must start at:
+//      EFTT_MAX * 2 : VS_REG_PM_0 = VS_DIFFUSE_COL    (0 + EFTT_MAX * 2)
+//============================================================================
+// Per pixel constant offsets
+#define PS_REG_PM_X c0
+
+#define PS_REG_PM_0 c32
+#define PS_REG_PM_1 c33
+#define PS_REG_PM_2 c34
+#define PS_REG_PM_3 c35
+#define PS_REG_PM_4 c36
+#define PS_REG_PM_5 c37
+#define PS_REG_PM_6 c38
+#define PS_REG_PM_7 c39
+#define PS_REG_PM_8 c40
+#define PS_REG_PM_9 c41
+#define PS_REG_PM_10 c42
+#define PS_REG_PM_11 c43
+#define PS_REG_PM_12 c44
+#define PS_REG_PM_13 c45
+
+#define PS_REG_PB_0 c0
+#define PS_REG_PB_1 c1
+#define PS_REG_PB_2 c2
+#define PS_REG_PB_3 c3
+#define PS_REG_PB_4 c4
+#define PS_REG_PB_5 c5
+#define PS_REG_PB_6 c6
+#define PS_REG_PB_7 c7
+#define PS_REG_PB_8 c8
+#define PS_REG_PB_9 c9
+
+#define GS_REG_PM_0 c0
+#define GS_REG_PM_X c0
+
+#define DS_REG_PM_X c0
+
+//*** Begin Do Not Remove or Rename ***//
+// Warning:
+// Do NOT remove, rename or use these shader constants.  They are NOT referenced in any shader anywhere, however the instancing system relies on these constants existing.
+// The vertex stream parameter InstBendInfo gets the prefix "Inst" removed during parsing and then later in CShaderMan::mfGetFXParameter, it does a lookup with
+// that mangled string into the SFXParam array and will fail if this exact shader constant has not been registered.  If this lookup fails, then InstBendInfo will
+// not be properly updated and instanced items with bend will disappear.
+float4 BendInfo         : SI_BendInfo         < vsregister = c3; >;
+half4 AmbientOp         : SI_AmbientOpacity   < vsregister = c5; >;
+//*** End Do Not Remove or Rename ***//
+
+// Vertex shader parameters
+float4x4 vpMatrix       : PI_ViewProjection   < vsregister = c0; >;
+float4 TessParams       : PI_TessParams;      //x = Tessellation factor, y = Displacement factor
+
+#if %TEMP_VEGETATION
+	half4 AmbientObjectCol : SI_ObjectAmbColComp < vsregister = c4; >;  //x=Ambient.w, y=ObjColor.w, z = 0, w = render quality
+#endif
+
+half4 MatDifColor  : PM_MatDiffuseColor  < psregister = PS_REG_PM_0; vsregister = VS_REG_PM_0; gsregister = GS_REG_PM_0; >;
+half4 MatSpecColor : PM_MatSpecularColor < psregister = PS_REG_PM_1; vsregister = VS_REG_PM_1; >;
+
+half4 Ambient      : PI_Ambient       < psregister = PS_REG_PB_9; vsregister = c3 >;
+
+//=============================================================================
+//                             Global constants 
+//
+// WARNING: avoid overlapping of global registers with any other PB/PI registers 
+// used in ALL shaders !!!
+//=============================================================================
+#define VS_REG_VIEW_PROJ_MATR  c0
+#define VS_REG_SUN_LIGHT_DIR   c4
+#define VS_REG_WORLD_VIEW_POS  c6
+#define VS_REG_SCREEN_SIZE     c7
+#define VS_REG_ANIMGEN_PARAMS  c8
+#define VS_REG_NEAR_FAR_DIST   c9
+#define VS_REG_VIEW_PROJ_ZERO_MATR c10
+#define VS_REG_FRUSTUM_PLANE_EQUATION c14
+#define VS_SHADOW_LIGHT_POS    c18
+#define VS_SHADOW_VIEW_POS     c19
+#define VS_REG_TESS_INFO       c20
+#define VS_REG_HPOS_SCALE       c21
+
+#define VS_REG_SKIN_DATA       c0
+#define VS_REG_INSTANCE_DATA   c0
+#define VS_REG_NOISE_TABLE     c0
+
+#define PS_REG_SUN_COLOR       c1
+#define PS_REG_SUN_LIGHT_DIR   c2
+#define PS_REG_FOG_COLOR       c3
+
+#define GS_REG_VIEW_PROJ_MATR  c0
+#define GS_REG_NEAR_FAR_DIST   c4
+#define GS_REG_WORLD_VIEW_POS  c5
+#define GS_REG_VIEW_PROJ_ZERO_MATR  c6
+#define GS_REG_HPOS_SCALE      c10
+
+#define PS_PROJ_RATIO_NEAREST_SCALED	c221
+#define PS_REG_DEPTH_FACTOR    c222
+#define PS_REG_PROJ_RATIO      c223
+
+#define VS_SG_REG_FRUSTRUM     c0
+#define PS_SG_REG_FRUSTRUM     c0
+
+#define VS_SG_REG_ShadowMatr0  c2
+#define VS_SG_REG_ShadowMatr1  c6
+#define VS_SG_REG_ShadowMatr2  c10
+#define VS_SG_REG_ShadowMatr3  c14
+
+// .x = 1.0f / (fogEnd - fogStart)
+// .y = fogEnd / (fogEnd - fogStart)
+float4 g_VS_WorldViewPos  : PF_CameraPos < vsregister = VS_REG_WORLD_VIEW_POS; dsregister = VS_REG_WORLD_VIEW_POS; hsregister = VS_REG_WORLD_VIEW_POS; gsregister = GS_REG_WORLD_VIEW_POS; >;
+float4 g_VS_ScreenSize : PF_ScreenSize < vsregister = VS_REG_SCREEN_SIZE; dsregister = VS_REG_SCREEN_SIZE; hsregister = VS_REG_SCREEN_SIZE; >;
+float4 g_VS_HPosScale : PF_HPosScale < vsregister = VS_REG_HPOS_SCALE; dsregister = VS_REG_HPOS_SCALE; hsregister = VS_REG_HPOS_SCALE; gsregister = GS_REG_HPOS_SCALE;  >;
+float4 g_VS_AnimGenParams < vsregister = VS_REG_ANIMGEN_PARAMS; > = { PF_time 2.0, PF_time 0.5, PF_time 1.0, PF_time 0.125};
+float4 g_VS_NearFarClipDist	: PF_NearFarDist < vsregister = VS_REG_NEAR_FAR_DIST; dsregister = VS_REG_NEAR_FAR_DIST; gsregister = VS_REG_NEAR_FAR_DIST; >;
+float4 g_VS_SunLightDir : PF_SunDirection < vsregister = VS_REG_SUN_LIGHT_DIR; dsregister = VS_REG_SUN_LIGHT_DIR; hsregister = VS_REG_SUN_LIGHT_DIR; gsregister = VS_REG_SUN_LIGHT_DIR; csregister = VS_REG_SUN_LIGHT_DIR; >;
+float4x4 g_VS_ViewProjMatr : PF_ViewProjMatrix < vsregister = VS_REG_VIEW_PROJ_MATR; dsregister = VS_REG_VIEW_PROJ_MATR; hsregister = VS_REG_VIEW_PROJ_MATR; gsregister = GS_REG_VIEW_PROJ_MATR; >;
+float4x4 g_VS_ViewProjZeroMatr : PF_ViewProjZeroMatrix < vsregister = VS_REG_VIEW_PROJ_ZERO_MATR; dsregister = VS_REG_VIEW_PROJ_ZERO_MATR; gsregister = GS_REG_VIEW_PROJ_ZERO_MATR; >;
+float4x4 g_VS_FrustumPlaneEquation : PF_FrustumPlaneEquation < vsregister = VS_REG_FRUSTUM_PLANE_EQUATION; hsregister = VS_REG_FRUSTUM_PLANE_EQUATION; >;
+float4   g_VS_ShadowLightPos : PF_ShadowLightPos < vsregister = VS_SHADOW_LIGHT_POS; hsregister = VS_SHADOW_LIGHT_POS; dsregister = VS_SHADOW_LIGHT_POS; >;
+float4   g_VS_ShadowViewPos : PF_ShadowViewPos < vsregister = VS_SHADOW_VIEW_POS; hsregister = VS_SHADOW_VIEW_POS; dsregister = VS_SHADOW_VIEW_POS; >;
+float4   g_VS_TessInfo : PF_TessInfo < vsregister = VS_REG_TESS_INFO; hsregister = VS_REG_TESS_INFO; dsregister = VS_REG_TESS_INFO; >; // x - triangle size, y - disp. height factor, z - min dist, w - max dist
+
+float4 g_PS_NearestScaled : PF_NearestScaled < psregister = PS_PROJ_RATIO_NEAREST_SCALED; >;
+float4 g_PS_ProjRatio : PF_ProjRatio < psregister = PS_REG_PROJ_RATIO; >;
+half4 g_PS_FogColor : PF_FogColor < psregister = PS_REG_FOG_COLOR; >;
+half4 g_PS_SunColor : PF_SunColor < psregister = PS_REG_SUN_COLOR; >;
+float4 g_PS_SunLightDir : PF_SunDirection < psregister = PS_REG_SUN_LIGHT_DIR; >;
+#define PS_HDR_RANGE_ADAPT_MAX g_PS_SunLightDir.w
+
+cbuffer CB_SkinQuat_Cur : register(b6)
+{
+	float2x4 _g_SkinQuat_Cur[MAX_BONES];
+};
+cbuffer CB_SkinQuat_Prev : register(b4)
+{
+	float2x4 _g_SkinQuat_Prev[MAX_BONES];
+};
+
+float4 _g_InstData[16] <vsregister = VS_REG_INSTANCE_DATA;>;
+
+//==========================================================================================
+// Frequently used parameters
+
+float4 FogInfo              : PB_Fog;
+half4 AvgFogVolumeContrib	: PI_AvgFogVolumeContrib;
+float4 PS_NearFarClipDist   : PB_NearFarDist;
+float4 PS_WorldViewPos      : PB_CameraPos;
+float4 PS_ScreenSize        : PB_ScreenSize;
+half4 AlphaTest            : PI_AlphaTest;		// .w=AlphaTest value, .x=GBuffer value(0..1)
+half4 PBAlphaTest          : PB_AlphaTest;		// .w=AlphaTest value, .x=GBuffer value(0..1)
+float3 CamFrontVector_POM   : PB_CameraFront;
+float4 ResInfoDiffuse       : PB_ResInfoDiffuse;
+float4 ResInfoBump          : PB_ResInfoBump;
+float4 PS_HPosScale         : PB_HPosScale;
+float4 PS_ZRange;
+float4 DetailParams : PB_DetailParams;
+float4 SilPomDetailParams : PB_SilPomDetailParams;
+
+float3 vSkinPrecisionOffset = { PB_ObjVal[0], PB_ObjVal[1], PB_ObjVal[2] };
+float4 fSkinningExtraWeights : PB_SkinningExtraWeights;
+
+// Deprecated parameters
+float4 ViewPos              : PI_OSCameraPos;
+
+#if FEATURE_SPI_CONSTANT_BUFFERS
+
+#if !FEATURE_SPI_INDEXED_CB
+	cbuffer CBStaticPerInst : register(b7)
+	{
+		float3x4	SPIObjWorldMat;
+		float4    SPIBendInfo;
+		float4		SPIRainLayerParams;
+		float4		SPIVertexAO;
+		float4		SPIAlphaTest;
+	};
+#else
+	cbuffer CBStaticPerInst : register(b7)
+	{
+		struct
+		{
+			float3x4	SPIObjWorldMat;
+			float4    SPIBendInfo;
+			float4		SPIRainLayerParams;
+			float4		SPIVertexAO;
+			float4		SPIAlphaTest;
+		} SPI[128];  // Must match SPI_NUM_INSTS_PER_CB in  DriverD3D.h
+	};
+
+	cbuffer CBIndirectPerInst : register(b11)
+	{
+		uint4 SPIIndex;
+	}
+#endif
+
+#endif
+
+float3x4 Get_SPI_ObjWorldMat()
+{
+#if FEATURE_SPI_INDEXED_CB
+	return SPI[SPIIndex.x].SPIObjWorldMat;
+#else
+	return SPIObjWorldMat;
+#endif
+}
+
+float4 Get_SPI_BendInfo()
+{
+#if FEATURE_SPI_INDEXED_CB
+	return SPI[SPIIndex.x].SPIBendInfo;
+#else
+	return SPIBendInfo;
+#endif
+}
+
+float4 Get_SPI_RainLayerParams()
+{
+#if FEATURE_SPI_CONSTANT_BUFFERS
+	#if FEATURE_SPI_INDEXED_CB
+		return SPI[SPIIndex.x].SPIRainLayerParams;
+	#else
+		return SPIRainLayerParams;
+	#endif
+#else
+	return g_RainLayerParams;
+#endif
+}
+
+float4 Get_SPI_VertexAO()
+{
+#if FEATURE_SPI_CONSTANT_BUFFERS
+	#if FEATURE_SPI_INDEXED_CB
+		return SPI[SPIIndex.x].SPIVertexAO;
+	#else
+		return SPIVertexAO;
+	#endif
+#else
+	return g_VertexAO;
+#endif
+}
+
+float4 Get_SPI_AlphaTest()
+{
+#if FEATURE_SPI_CONSTANT_BUFFERS
+	#if FEATURE_SPI_INDEXED_CB
+		return SPI[SPIIndex.x].SPIAlphaTest;
+	#else
+		return SPIAlphaTest;
+	#endif
+#else
+	return AlphaTest;
+#endif
+}

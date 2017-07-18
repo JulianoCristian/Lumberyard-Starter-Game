@@ -1,0 +1,34 @@
+# external modules/dependencies
+av(codec|device|filter|format|resample|util).*\.dll
+aws-cpp-sdk.*\.dll
+boost_.*\.dll
+D3D.*\.dll
+dbghelp\.dll
+fuel[\\/].*
+glew32\.dll
+icu.*\.dll
+libeay32\.dll
+lib(EGL|GLES).*\.dll
+lib(ogg|opus|vo).*\.dll
+libSce.*\.dll
+Microsoft.*\.dll
+msvc.*\.dll
+opengl.*\.dll
+openvr_api\.dll
+osvr.*\.dll
+PVRTexLib\.dll
+python.*\.dll
+qt5.*\.dll
+qtlibs\\.*
+rad_tm.*\.dll
+SDL2\.dll
+ssl.*
+substance.*
+swscale.*\.dll
+ToolkitPro.*\.dll
+xg\.dll
+xinput.*
+zlib.*
+
+# internal modules
+AzCoreTestDLL\.dll

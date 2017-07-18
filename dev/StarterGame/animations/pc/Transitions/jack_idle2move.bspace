@@ -1,0 +1,31 @@
+<ParaGroup>
+ <Dimensions>
+  <Param Name="BlendWeight" Min="0.26359999" Max="1" Cells="9"/>
+  <Param Name="BlendWeight3" Min="0.33329999" Max="0.66659999" Cells="9"/>
+  <Param Name="BlendWeight2" Min="0" Max="1" Cells="9"/>
+ </Dimensions>
+ <AdditionalExtraction>
+  <Param name="MoveSpeed"/>
+  <Param name="TravelSlope"/>
+ </AdditionalExtraction>
+ <ExampleList>
+  <Example SetPara0="0.26359999" SetPara1="0.5" SetPara2="0" AName="jack_idle_to_walk"/>
+  <Example SetPara0="1" SetPara1="0.5" SetPara2="0" AName="jack_idle_to_run"/>
+  <Example SetPara0="1" SetPara1="0.66659999" SetPara2="0" AName="jack_idle_to_run_up"/>
+  <Example SetPara0="1" SetPara1="0.33329999" SetPara2="0" AName="jack_idle_to_run_down"/>
+  <Example SetPara0="0.26359999" SetPara1="0.66659999" SetPara2="0" AName="jack_idle_to_walk_up"/>
+  <Example SetPara0="0.26359999" SetPara1="0.33329999" SetPara2="0" AName="jack_idle_to_walk_down"/>
+  <Example SetPara0="0.26359999" SetPara1="0.5" SetPara2="1" AName="jack_idle_to_walk_aim"/>
+  <Example SetPara0="1" SetPara1="0.5" SetPara2="1" AName="jack_idle_to_run_aim"/>
+  <Example SetPara0="1" SetPara1="0.66659999" SetPara2="1" AName="jack_idle_to_run_up_aim"/>
+  <Example SetPara0="1" SetPara1="0.33329999" SetPara2="1" AName="jack_idle_to_run_down_aim"/>
+  <Example SetPara0="0.26359999" SetPara1="0.66659999" SetPara2="1" AName="jack_idle_to_walk_up_aim"/>
+  <Example SetPara0="0.26359999" SetPara1="0.33329999" SetPara2="1" AName="jack_idle_to_walk_down_aim"/>
+ </ExampleList>
+ <Blendable>
+  <Face p0="0" p1="1" p2="2" p3="4" p4="7" p5="8"/>
+  <Face p0="10" p1="8" p2="7" p3="6" p4="4" p5="0"/>
+  <Face p0="5" p1="3" p2="1" p3="0" p4="9" p5="7"/>
+  <Face p0="6" p1="7" p2="9" p3="11" p4="0" p5="5"/>
+ </Blendable>
+</ParaGroup>

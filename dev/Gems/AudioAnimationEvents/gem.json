@@ -1,0 +1,11 @@
+{
+    "GemFormatVersion": 3,
+    "Uuid": "0549200795a94b7f902727db81d5d6d8",
+    "Name": "AudioAnimationEvents",
+    "DisplayName": "AudioAnimationEvents",
+    "Version": "0.1.0",
+    "LinkType": "Dynamic",
+    "Summary": "A short description of my Gem.",
+    "Tags": ["Untagged"],
+    "IconPath": "preview.png"
+}

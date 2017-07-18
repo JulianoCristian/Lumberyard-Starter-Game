@@ -1,0 +1,15 @@
+<CombinedBlendSpace>
+ <Dimensions>
+  <Param Name="BlendWeight2" ParaScale="1"/>
+  <Param Name="MoveSpeed" ParaScale="1"/>
+  <Param Name="TurnSpeed" ParaScale="2"/>
+  <Param Name="TravelSlope" ParaScale="2"/>
+ </Dimensions>
+ <AdditionalExtraction />
+ <BlendSpaces>
+  <BlendSpace AName="Animations/PC/Movement/jack_movement.bspace"/>
+  <BlendSpace AName="Animations/PC/Movement/jack_movement_slope.bspace"/>
+ </BlendSpaces>
+ <MotionCombination />
+ <JointList />
+</CombinedBlendSpace>

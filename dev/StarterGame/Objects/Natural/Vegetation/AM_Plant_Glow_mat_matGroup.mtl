@@ -1,0 +1,19 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="AM_Plant_Glow_mat" MtlFlags="524418" Shader="Illum" GenMask="800000020001" StringGenMask="%ALLOW_SILHOUETTE_POM%EMITTANCE_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_vegetation" Diffuse="1,1,1" Specular="0,0,0" Emittance="1,1,1,11" Opacity="1" Shininess="10" AlphaTest="0.18000001" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/Natural/Vegetation/am_plant_glow_diff.tif"/>
+    <Texture Map="Emittance" File="objects/natural/vegetation/am_plant_glow_e.dds"/>
+   </Textures>
+   <VertexDeform Type="1" DividerX="0.0099999998" DividerY="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="1" Amp="0.0049999999" Level="0" Phase="0" Freq="1"/>
+   </VertexDeform>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="bend_proxy" MtlFlags="524416" Shader="Illum" GenMask="800100000001" StringGenMask="%ALLOW_SILHOUETTE_POM%PHONG_TESSELLATION%SUBSURFACE_SCATTERING" SurfaceType="mat_vegetation" Diffuse="0.5,0.5,0.5" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+   <PublicParams TessellationFaceCull="0.75" EmittanceMapGamma="1" TessellationFactor="1" SSSIndex="0" TessellationFactorMax="32" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

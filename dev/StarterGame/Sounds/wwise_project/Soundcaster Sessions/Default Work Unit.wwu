@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{53432279-927E-4180-83F5-90092077B978}" SchemaVersion="72">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{53432279-927E-4180-83F5-90092077B978}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="weapons" ID="{7953DCDF-BB13-48A5-A935-170C6F9C9352}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_pla_wpn_plasma_pistol_fire" ID="{16DFCB63-C74D-4F99-B1C7-3F767C3AB247}" WorkUnitID="{C2667DB5-2F12-4467-8574-F5F279942F9F}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_HUD_wpn_switch" ID="{C65959F7-356D-4A0B-BA83-A88837CBF25E}" WorkUnitID="{C2667DB5-2F12-4467-8574-F5F279942F9F}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_pla_wpn_plasma_pistol_hit" ID="{865F478D-8F5B-4462-978D-017C642C7D93}" WorkUnitID="{C2667DB5-2F12-4467-8574-F5F279942F9F}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_pla_wpn_plasma_pistol_fire_no_NRG" ID="{BD9A612E-B559-439F-BFA6-F430061FF08E}" WorkUnitID="{C2667DB5-2F12-4467-8574-F5F279942F9F}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_pla_wpn_plasma_grenade_fire" ID="{E5D3C30D-3234-4040-BB3E-3FC373923D81}" WorkUnitID="{C2667DB5-2F12-4467-8574-F5F279942F9F}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="rtpc_distance" ID="{F0AD3203-0A9D-4225-BF4C-A2987A18B9B8}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="rtpc_playerHeight" ID="{13B5291E-19FA-49F5-A7F1-001743089647}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="ship_ext" ID="{77E1C4DB-325C-495F-A692-6EC51A5BDF58}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="default" ID="{16AD3CAB-7A0A-4F57-87C3-75DF51BCEC85}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="env" ID="{DB53CB48-ABA4-455A-86A4-C29DEF3601D5}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_AMZ_sfx_env_blend" ID="{B963A3F7-C6D8-4F61-9942-27D4264542D7}" WorkUnitID="{C2667DB5-2F12-4467-8574-F5F279942F9F}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_AMZ_sfx_spfx_elec_spark" ID="{4AE4D2CD-66E4-4A5D-913A-281DC95D9919}" WorkUnitID="{C2667DB5-2F12-4467-8574-F5F279942F9F}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_AMZ_sfx_spfx_steam" ID="{6D5EA0CE-755E-4FF2-9E90-122ADC143263}" WorkUnitID="{C2667DB5-2F12-4467-8574-F5F279942F9F}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="rtpc_distance" ID="{F0AD3203-0A9D-4225-BF4C-A2987A18B9B8}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="rtpc_playerHeight" ID="{13B5291E-19FA-49F5-A7F1-001743089647}"/>
+							<Value>45</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="ship_int" ID="{DB7D0E48-DEDB-45DE-82B5-18F925D987C3}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="grass" ID="{A00F4E19-6A4C-41EB-8944-ADD339FAA243}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

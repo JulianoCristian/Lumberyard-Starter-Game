@@ -1,0 +1,814 @@
+<ObjectLayer>
+ <Layer Name="Lighting" GUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1">
+  <LayerObjects>
+   <Object Type="EnvironmentProbe" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{CAD07A09-E109-4C42-9216-3B6D0185590B}" Name="EnvProbeAirshipInterior1" HideOrder="0" Pos="712.74957,1106.6805,96.049995" FloorNumber="-1" Rotate="0.9953962,0,0,0.095845737" ColorRGB="16776960" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="EnvironmentLight">
+    <Properties bActive="1" BoxSizeX="14" BoxSizeY="16" BoxSizeZ="14" _nVersion="0">
+     <Color clrDiffuse="0.571125,0.571125,0.571125" fDiffuseMultiplier="1.5" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.1" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="0" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/StarterGame/envprobeairshipinterior1_cm.dds"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{05B23F0B-FC46-4B2D-8F94-7FB107EBCE72}" Name="LightInteriorRobotSeats12" HideOrder="0" Pos="687.41223,1097.1926,103.70474" FloorNumber="-1" Rotate="0.70256138,0.08004678,0.70256138,-0.080046773" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="16" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="4" fSpecularMultiplier="4"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="1" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="1" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{0E01840B-7029-46AB-B541-1E186D16D5DA}" Name="LightInteriorRobotSeats40" HideOrder="0" Pos="703.36987,1126.4229,105.53213" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="8" _nVersion="0">
+     <Color clrDiffuse="0.806952,0.198069,0.0202886" fDiffuseMultiplier="2" fSpecularMultiplier="2"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{1861AA0D-4CEB-410D-8795-C83268F01421}" Name="EnvironmentProbeNight" HideOrder="0" Pos="874.70917,1090.3236,88.315247" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="EnvironmentLight">
+    <Properties bActive="0" BoxSizeX="1024" BoxSizeY="1024" BoxSizeZ="1024" _nVersion="0">
+     <Color clrDiffuse="0.982251,0.973445,0.904661" fDiffuseMultiplier="2" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.3" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="0" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/StarterGame/environmentprobenight_cm.dds"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{E8693D11-6070-4282-811B-FA2E1F5193C7}" Name="LightInteriorRobotSeats26" HideOrder="0" Pos="665.48273,1124.4766,104.71324" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="6" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="3" fSpecularMultiplier="3"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{0FEA2314-1F4F-41C1-BB3E-2B728A596661}" Name="LightInteriorRobotSeats30" HideOrder="0" Pos="656.17395,1115.3062,104.52488" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="6" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="3" fSpecularMultiplier="3"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{7D21CC14-A8DC-41B2-A83C-A7722DE9521A}" Name="LightInteriorRobotSeats13" HideOrder="0" Pos="660.57867,1103.3877,103.70474" FloorNumber="-1" Rotate="0.70256138,0.08004678,0.70256138,-0.080046773" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="16" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="4" fSpecularMultiplier="4"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="1" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="1" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{BB7CB815-ADAA-4F5E-AFBA-0D12DC59619D}" Name="LightInteriorHologram1" HideOrder="0" Pos="737.763,1109.2319,96.815437" FloorNumber="-1" Rotate="0.99452192,0,0,0.10452846" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="7" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="3" fSpecularMultiplier="3"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{706BFE17-5671-49EB-B41F-6221BDBF18E0}" Name="EnvironmentProbeDay" HideOrder="0" Pos="875.70917,1091.3236,88.315247" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="EnvironmentLight">
+    <Properties bActive="1" BoxSizeX="1024" BoxSizeY="1024" BoxSizeZ="1024" _nVersion="0">
+     <Color clrDiffuse="0.116971,0.412543,0.610496" fDiffuseMultiplier="2.5" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.3" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="0" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/StarterGame/environmentprobeday_cm.dds"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{8A7AD01A-D9AB-472C-B6F5-55A2C7F1C53D}" Name="LightInteriorRobotSeats22" HideOrder="0" Pos="673.39227,1114.5551,96.880447" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="6" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="2" fSpecularMultiplier="2"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{562AF51A-E8F7-4935-B10B-F3745DD6C776}" Name="LightInteriorRobotSeats2" HideOrder="0" Pos="720.92389,1108.2488,97.368881" FloorNumber="-1" Rotate="0.99452192,0,0,0.10452846" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="6" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="3" fSpecularMultiplier="3"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{6800F422-8B3E-4C15-A13D-42154E1AA393}" Name="LightInteriorRobotSeats32" HideOrder="0" Pos="662.55011,1090.7612,100.62798" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="6" _nVersion="0">
+     <Color clrDiffuse="0.806952,0.198069,0.0202886" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{7C89362A-1EE5-4A84-BAFF-5DDD82B5FDEB}" Name="LightInteriorRobotSeats38" HideOrder="0" Pos="649.76746,1094.9894,105.53213" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="8" _nVersion="0">
+     <Color clrDiffuse="0.806952,0.198069,0.0202886" fDiffuseMultiplier="2" fSpecularMultiplier="2"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{40D7E330-6C4D-4AC2-97EE-313E6165D651}" Name="LightAlarmInt3" HideOrder="0" Pos="698.96387,1105.5964,98.559998" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320319" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.2" Radius="4" _nVersion="0">
+     <Color clrDiffuse="0.991102,0.00560539,0.00560539" fDiffuseMultiplier="0" fSpecularMultiplier="1.3"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{D6EFE732-A445-4265-9429-1F1E8E038212}" Name="LightInteriorRobotSeats19" HideOrder="0" Pos="659.76221,1103.7297,96.231026" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="6" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="3" fSpecularMultiplier="3"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{55ED573C-6947-4707-9B9C-352DE49F995D}" Name="SunLensflare" HideOrder="0" Pos="875.93311,1088.8264,88.211525" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" Material="engineassets/materials/lens_optics" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="10" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="1" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="1" flare_Flare="SunLensFlare.LensFlares.ChromaticRing" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{8FFBCA40-C2A7-40F2-91F4-63CBF2FDBB11}" Name="LightInteriorRobotSeats23" HideOrder="0" Pos="687.42993,1097.2141,104.92045" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="6" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="3" fSpecularMultiplier="3"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{82E2C144-2E07-49D3-A07C-FFF8A88E4009}" Name="LightInteriorRobotSeats10" HideOrder="0" Pos="665.43726,1124.4326,103.70474" FloorNumber="-1" Rotate="0.70256138,0.08004678,0.70256138,-0.080046773" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="16" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="4" fSpecularMultiplier="4"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="1" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="1" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{46843051-AEB7-4A53-986E-AB67C4331C36}" Name="EnvProbeAirshipStartDay2" HideOrder="0" Pos="734.26978,1109.0001,109.11613" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="EnvironmentLight">
+    <Properties bActive="1" BoxSizeX="50" BoxSizeY="80" BoxSizeZ="50" _nVersion="0">
+     <Color clrDiffuse="0.119538,0.141263,0.0684782" fDiffuseMultiplier="7" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.3" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="0" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/StarterGame/envprobeairshipstartday2_cm.dds"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{1B1FA458-63EB-4904-A652-33F50CEF9EFB}" Name="LightAlarmInt2" HideOrder="0" Pos="752.01001,1105.74,98.559998" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.2" Radius="4" _nVersion="0">
+     <Color clrDiffuse="0.991102,0.00560539,0.00560539" fDiffuseMultiplier="0" fSpecularMultiplier="1.3"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="SequenceObject" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{66886C59-6AEB-41EC-9742-C5A1196C5F4D}" Name="AlarmLight" HideOrder="0" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16744319">
+    <Sequence SequenceVersion="3" Name="AlarmLight" Flags="5" StartTime="0" EndTime="2" ID="3" SequenceType="0">
+     <Nodes>
+      <Node Id="1" Type="Entity" Name="LightAlarmInt1" Flags="4" paramIdVersion="9" EntityGUID="4D0D86D889BEA8C9">
+       <Track paramType="Position" Type="4" Flags="0" HasCustomColor="0" ValueType="1">
+        <NewSubTrack Flags="0" defaultValue="0,725.53003" HasCustomColor="0"/>
+        <NewSubTrack Flags="0" defaultValue="0,1109.26" HasCustomColor="0"/>
+        <NewSubTrack Flags="0" defaultValue="0,98.559998" HasCustomColor="0"/>
+       </Track>
+       <Track paramType="Rotation" Type="4" Flags="0" HasCustomColor="0" ValueType="2">
+        <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+        <NewSubTrack Flags="0" defaultValue="0,-0" HasCustomColor="0"/>
+        <NewSubTrack Flags="0" defaultValue="0,11" HasCustomColor="0"/>
+       </Track>
+       <Track paramType="Event" Type="-1" Flags="0" StartTime="0" EndTime="2" HasCustomColor="0" ValueType="-1"/>
+       <Track paramUserValue="ScriptTable:Properties/Color/fDiffuseMultiplier" paramType="ByString" Type="4" Flags="0" defaultValue="0,1.3" HasCustomColor="0" ValueType="0">
+        <Key time="0.17" value="0.17,0" flags="81" ds="1,0" dd="0.16666667,0"/>
+        <Key time="0.67000002" value="0.67000002,1.3" flags="82" ds="0.16666667,0" dd="0.22106384,0"/>
+        <Key time="1.3331915" value="1.3331915,1.3083215" flags="82" ds="0.22106384,0" dd="0.16560285,0"/>
+        <Key time="1.83" value="1.83,0" flags="73" ds="0.16882512,0" dd="0.33333334,0"/>
+       </Track>
+      </Node>
+      <Node Id="2" Type="Entity" Name="LightAlarmInt2" Flags="4" paramIdVersion="9" EntityGUID="490463EB1B1FA458">
+       <Track paramType="Position" Type="4" Flags="0" HasCustomColor="0" ValueType="1">
+        <NewSubTrack Flags="0" defaultValue="0,752.01001" HasCustomColor="0"/>
+        <NewSubTrack Flags="0" defaultValue="0,1105.74" HasCustomColor="0"/>
+        <NewSubTrack Flags="0" defaultValue="0,98.559998" HasCustomColor="0"/>
+       </Track>
+       <Track paramType="Rotation" Type="4" Flags="0" HasCustomColor="0" ValueType="2">
+        <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+        <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+        <NewSubTrack Flags="0" defaultValue="0,-13" HasCustomColor="0"/>
+       </Track>
+       <Track paramType="Scale" Type="4" Flags="0" HasCustomColor="0" ValueType="1">
+        <NewSubTrack Flags="0" defaultValue="0,1" HasCustomColor="0"/>
+        <NewSubTrack Flags="0" defaultValue="0,1" HasCustomColor="0"/>
+        <NewSubTrack Flags="0" defaultValue="0,1" HasCustomColor="0"/>
+       </Track>
+       <Track paramType="Event" Type="-1" Flags="0" StartTime="0" EndTime="2" HasCustomColor="0" ValueType="-1"/>
+       <Track paramUserValue="ScriptTable:Properties/Color/fDiffuseMultiplier" paramType="ByString" Type="4" Flags="0" defaultValue="0,1.3" HasCustomColor="0" ValueType="0">
+        <Key time="0.17" value="0.17,0" flags="17" ds="1,0" dd="0.16666667,0"/>
+        <Key time="0.67000002" value="0.67000002,1.3" flags="18" ds="0.16666667,0" dd="0.22106384,0"/>
+        <Key time="1.3331915" value="1.3331915,1.3083215" flags="18" ds="0.22106384,0" dd="0.16560285,0"/>
+        <Key time="1.83" value="1.83,0" flags="9" ds="0.16882512,0" dd="0.33333334,0"/>
+       </Track>
+      </Node>
+      <Node Id="4" Type="Entity" Name="LightAlarmInt3" Flags="4" paramIdVersion="9" EntityGUID="4AC26C4D40D7E330">
+       <Track paramType="Position" Type="4" Flags="0" HasCustomColor="0" ValueType="1">
+        <NewSubTrack Flags="0" defaultValue="0,698.96387" HasCustomColor="0"/>
+        <NewSubTrack Flags="0" defaultValue="0,1105.5964" HasCustomColor="0"/>
+        <NewSubTrack Flags="0" defaultValue="0,98.559998" HasCustomColor="0"/>
+       </Track>
+       <Track paramType="Rotation" Type="4" Flags="0" HasCustomColor="0" ValueType="2">
+        <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+        <NewSubTrack Flags="0" defaultValue="0,0" HasCustomColor="0"/>
+        <NewSubTrack Flags="0" defaultValue="0,-12.999997" HasCustomColor="0"/>
+       </Track>
+       <Track paramType="Event" Type="-1" Flags="0" StartTime="0" EndTime="2" HasCustomColor="0" ValueType="-1"/>
+       <Track paramUserValue="ScriptTable:Properties/Color/fDiffuseMultiplier" paramType="ByString" Type="4" Flags="0" defaultValue="0,1.3" HasCustomColor="0" ValueType="0">
+        <Key time="0.17" value="0.17,0" flags="17" ds="1,0" dd="0.16666667,0"/>
+        <Key time="0.67000002" value="0.67000002,1.3" flags="18" ds="0.16666667,0" dd="0.22106384,0"/>
+        <Key time="1.3331915" value="1.3331915,1.3083215" flags="18" ds="0.22106384,0" dd="0.16560285,0"/>
+        <Key time="1.83" value="1.83,0" flags="9" ds="0.16882512,0" dd="0.33333334,0"/>
+       </Track>
+      </Node>
+     </Nodes>
+     <Events />
+    </Sequence>
+    <ZoomScrollSettings dopeSheetZoom="100" dopeSheetHScroll="0" nodesListVScroll="0" curveEditorZoom="199.5685,100" curveEditorScroll="0,0"/>
+    <ID value="3"/>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{A7CDD65E-5138-4872-AA99-DAAC8F92493D}" Name="LightInteriorRobotSeats18" HideOrder="0" Pos="674.13171,1100.3937,96.231026" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="6" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="3" fSpecularMultiplier="3"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{6B1DBF63-26BE-43D9-BCBB-1B887ECF07FC}" Name="LightInteriorRobotSeats28" HideOrder="0" Pos="692.42603,1118.3975,104.71324" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="6" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="3" fSpecularMultiplier="3"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{E47D2465-82AE-482F-BF2A-FD2980F424D7}" Name="LightInteriorRobotSeats15" HideOrder="0" Pos="655.9104,1115.5221,103.70474" FloorNumber="-1" Rotate="0.70256138,0.08004678,0.70256138,-0.080046773" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="16" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="4" fSpecularMultiplier="4"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="1" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="1" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{1FE30668-8B4A-4AC8-A7A7-5CB056DE5422}" Name="LightInteriorRobotSeats24" HideOrder="0" Pos="674.22247,1100.2838,104.71324" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="6" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="3" fSpecularMultiplier="3"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{3D39116C-40E6-43F9-BF52-6455EF5A94DF}" Name="LightInteriorRobotSeats36" HideOrder="0" Pos="672.75055,1134.751,100.62798" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="6" _nVersion="0">
+     <Color clrDiffuse="0.806952,0.198069,0.0202886" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{B901A46C-26E0-4D52-929B-CFEEA3E0D0DA}" Name="EnvironmentProbeDayRiver" HideOrder="0" Pos="926.93915,927.51727,83.204979" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" Material="materials/water/watervolumes/water_forest_a" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="EnvironmentLight">
+    <Properties bActive="0" BoxSizeX="128" BoxSizeY="128" BoxSizeZ="128" _nVersion="0">
+     <Color clrDiffuse="0.116971,0.412543,0.610496" fDiffuseMultiplier="4" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.3" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="0" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/StarterGame/environmentprobeday2_cm.dds"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{267C516D-3FB4-4FF3-889E-D8F1237DBE9E}" Name="EnvironmentProbeSunrise" HideOrder="0" Pos="874.70917,1091.3236,88.315247" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="EnvironmentLight">
+    <Properties bActive="0" BoxSizeX="1024" BoxSizeY="1024" BoxSizeZ="1024" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.3" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="0" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/StarterGame/environmentprobesunrise_cm.dds"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{C350E76D-B334-44C5-8D1A-F2F84F2A4AC2}" Name="LightInteriorRobotSeats37" HideOrder="0" Pos="692.49915,1085.124,105.61811" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="8" _nVersion="0">
+     <Color clrDiffuse="0.806952,0.198069,0.0202886" fDiffuseMultiplier="2" fSpecularMultiplier="2"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{1182AB71-3247-4F30-90DC-40D03A6E4A21}" Name="LightInteriorRobotSeats1" HideOrder="0" Pos="714.14868,1106.873,97.378754" FloorNumber="-1" Rotate="0.99452192,0,0,0.10452846" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="6" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="3" fSpecularMultiplier="3"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{EEF9AB79-903B-4AFB-86A6-454EE0EB48B5}" Name="LightInteriorRobotSeats25" HideOrder="0" Pos="660.64264,1103.5118,104.71324" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="6" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="3" fSpecularMultiplier="3"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{7B2B6E7C-69D7-4D13-964F-A0B92ABBDD98}" Name="EnvProbeAirshipStartDay" HideOrder="0" Pos="776.83301,1109.0001,98.899994" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="EnvironmentLight">
+    <Properties bActive="1" BoxSizeX="50" BoxSizeY="80" BoxSizeZ="80" _nVersion="0">
+     <Color clrDiffuse="0.242281,0.287441,0.138432" fDiffuseMultiplier="3" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.3" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="0" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/StarterGame/envprobeairshipstartday_cm.dds"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{5B17B87E-D128-49E3-A411-5B3F30BC3E98}" Name="LightInteriorRobotSeats17" HideOrder="0" Pos="692.27972,1118.2208,96.231026" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="6" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="3" fSpecularMultiplier="3"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{045AE586-904C-4610-8422-11E6E8BD21EB}" Name="LightInteriorRobotSeats35" HideOrder="0" Pos="681.59308,1132.7095,100.62798" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="6" _nVersion="0">
+     <Color clrDiffuse="0.806952,0.198069,0.0202886" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{9D110C8A-4714-412F-8373-B2A9A3EE1353}" Name="LightInteriorRobotSeats21" HideOrder="0" Pos="678.83868,1122.9897,98.664024" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="6" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="2" fSpecularMultiplier="2"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{7D2AC18B-1CA4-499A-9F85-5471BF0C466B}" Name="LightInteriorRobotSeats27" HideOrder="0" Pos="678.95813,1121.5068,104.71324" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="6" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="3" fSpecularMultiplier="3"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{C4A6ED93-8CD3-4E4C-9E5E-2CB23CCEC82E}" Name="EnvProbeAirshipInterior3" HideOrder="0" Pos="724.29419,1108.9246,96.049995" FloorNumber="-1" Rotate="0.9953962,0,0,0.095845737" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="EnvironmentLight">
+    <Properties bActive="1" BoxSizeX="16" BoxSizeY="16" BoxSizeZ="14" _nVersion="0">
+     <Color clrDiffuse="0.571125,0.571125,0.571125" fDiffuseMultiplier="1.5" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.1" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="0" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/StarterGame/envprobeairshipinterior3_cm.dds"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{E5AE1B99-1DA7-415F-8619-AEEBE005F2B5}" Name="LightInteriorRobotSeats42" HideOrder="0" Pos="695.92365,1099.7748,106.82941" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="8" _nVersion="0">
+     <Color clrDiffuse="0.806952,0.198069,0.0202886" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{14542DA1-F0BA-4F21-8655-6117490C4F3C}" Name="LightInteriorRobotSeats34" HideOrder="0" Pos="690.57422,1130.954,100.62798" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="6" _nVersion="0">
+     <Color clrDiffuse="0.806952,0.198069,0.0202886" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{412752A1-8C24-45D3-9132-07B902EDDFAB}" Name="LightInteriorRobotSeats29" HideOrder="0" Pos="667.40308,1125.6299,98.980934" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="6" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="2" fSpecularMultiplier="2"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{9BEFAEA6-8DAD-4926-B0B9-E0A0D531D788}" Name="EnvProbeAirshipInterior4" HideOrder="0" Pos="748.40234,1106.4611,96.033432" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320323" ColorRGB="16776960" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="EnvironmentLight">
+    <Properties bActive="1" BoxSizeX="14" BoxSizeY="15" BoxSizeZ="14" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.617207,0.617207" fDiffuseMultiplier="1.5" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.05" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="0" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/StarterGame/envprobeairshipinterior4_cm.dds"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{15BA50A9-776F-481F-9F60-8F85D66DBF4B}" Name="LightInteriorRobotSeats31" HideOrder="0" Pos="671.323,1088.7358,100.62988" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="6" _nVersion="0">
+     <Color clrDiffuse="0.806952,0.198069,0.0202886" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{13E12AB4-6A31-457E-BB8B-B30B87458090}" Name="LightInteriorRobotSeats16" HideOrder="0" Pos="687.42993,1097.2141,96.299088" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="6" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="3" fSpecularMultiplier="3"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{2A9A01B7-EC70-4BCA-87E1-A71744CFFE79}" Name="LightInteriorHologram2" HideOrder="0" Pos="747.74158,1106.7517,96.815437" FloorNumber="-1" Rotate="0.99452192,0,0,0.10452846" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="7" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="2" fSpecularMultiplier="2"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{89BEA8C9-86D8-4D0D-B671-28A4E07E0E04}" Name="LightAlarmInt1" HideOrder="0" Pos="725.53003,1109.26,98.559998" FloorNumber="-1" Rotate="0.9953962,0,0,0.095845759" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.2" Radius="4" _nVersion="0">
+     <Color clrDiffuse="0.991102,0.00560539,0.00560539" fDiffuseMultiplier="1.3" fSpecularMultiplier="1.3"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{F90F4ACC-A7CD-4D3D-8399-E82AB472E75E}" Name="FlowgraphEntity_TimeOfDay" HideOrder="0" Pos="876.87494,1090,87.874992" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="FlowgraphEntity">
+    <FlowGraph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="2" Class="Game:Start" pos="-510,-640,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="13" Class="Time:TimeOfDay" pos="640,480,0" flags="0">
+       <Inputs Time="0" ForceUpdate="0" Speed="0"/>
+      </Node>
+      <Node Id="35" Class="Logic:Sequencer" pos="-490,190,0" flags="0">
+       <Inputs Closed="0" Reverse="0"/>
+      </Node>
+      <Node Id="37" Class="Time:TimeOfDay" pos="490,1080,0" flags="0">
+       <Inputs Time="6.6" ForceUpdate="0" Speed="0"/>
+      </Node>
+      <Node Id="39" Class="Time:TimeOfDay" pos="430,-690,0" flags="0">
+       <Inputs Time="15.5" ForceUpdate="0" Speed="0"/>
+      </Node>
+      <Node Id="40" Class="Time:TimeOfDay" pos="460,-70,0" flags="0">
+       <Inputs Time="17.15" ForceUpdate="0" Speed="0"/>
+      </Node>
+      <Node Id="82" Class="Debug:InputKey" pos="-1670,200,0" flags="0">
+       <Inputs Key="f" NonDevMode="0" KeyboardOnly="0"/>
+      </Node>
+      <Node Id="84" Class="Time:Delay" pos="-1400,-140,0" flags="0">
+       <Inputs delay="4" resetOnInput="0"/>
+      </Node>
+      <Node Id="85" Class="Logic:Gate" pos="-1660,370,0" flags="0">
+       <Inputs Closed="0"/>
+      </Node>
+      <Node Id="92" Class="Image:ScreenFader" pos="-990,-190,0" flags="0">
+       <Inputs FadeGroup="0" UseCurColor="1" FadeInTime="1" FadeOutTime="1" color_FadeColor="1,1,1" tex_TextureName="" UpdateAlways="0"/>
+      </Node>
+      <Node Id="93" Class="Time:Delay" pos="-960,190,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="130" Class="Image:ColorCorrection" pos="-430,600,0" flags="0">
+       <Inputs Enable="1" Disable="0" Global_User_ColorC="0" Global_User_ColorM="0" Global_User_ColorY="0" Global_User_ColorK="0" Global_User_Brightness="1" Global_User_Contrast="1" Global_User_Saturation="1" Global_User_ColorHue="0"/>
+      </Node>
+      <Node Id="145" Class="Interpolate:SmoothFloat" pos="-850,560,0" flags="0">
+       <Inputs InitialValue="1" TargetValue="3.5" Time="0.5"/>
+      </Node>
+      <Node Id="146" Class="Interpolate:SmoothFloat" pos="-850,720,0" flags="0">
+       <Inputs InitialValue="1" TargetValue="1" Time="0.5"/>
+      </Node>
+      <Node Id="153" Class="Logic:Any" pos="-580,630,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="154" Class="Logic:Any" pos="-180,-180,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="156" Class="Image:ScreenFader" pos="630,-1050,0" flags="0">
+       <Inputs FadeGroup="0" UseCurColor="1" FadeInTime="1" FadeOutTime="2" color_FadeColor="0,0,0" tex_TextureName="" UpdateAlways="0"/>
+      </Node>
+      <Node Id="157" Class="Time:Delay" pos="410,-1060,0" flags="0">
+       <Inputs delay="3" resetOnInput="0"/>
+      </Node>
+      <Node Id="160" Class="Math:SetNumber" pos="-1070,670,0" flags="0">
+       <Inputs In="1"/>
+      </Node>
+      <Node Id="161" Class="Math:SetNumber" pos="-1060,850,0" flags="0">
+       <Inputs In="3.5"/>
+      </Node>
+      <Node Id="175" Class="Entity:PropertySet" pos="430,-560,0" flags="0" EntityGUID="{706BFE17-5671-49EB-B41F-6221BDBF18E0}" EntityGUID_64="49EB5671706BFE17">
+       <Inputs entityProperties_Property="Properties:bActive" Value="1" perArchetype="1"/>
+      </Node>
+      <Node Id="178" Class="Entity:PropertySet" pos="450,-180,0" flags="0" EntityGUID="{706BFE17-5671-49EB-B41F-6221BDBF18E0}" EntityGUID_64="49EB5671706BFE17">
+       <Inputs entityProperties_Property="Properties:bActive" Value="0" perArchetype="1"/>
+      </Node>
+      <Node Id="179" Class="Entity:PropertySet" pos="460,60,0" flags="0" EntityGUID="{9A326AF2-33D6-446A-ACCA-E87E2EB1D5A3}" EntityGUID_64="446A33D69A326AF2">
+       <Inputs entityProperties_Property="Properties:bActive" Value="1" perArchetype="1"/>
+      </Node>
+      <Node Id="180" Class="Entity:PropertySet" pos="640,370,0" flags="0" EntityGUID="{9A326AF2-33D6-446A-ACCA-E87E2EB1D5A3}" EntityGUID_64="446A33D69A326AF2">
+       <Inputs entityProperties_Property="Properties:bActive" Value="0" perArchetype="1"/>
+      </Node>
+      <Node Id="181" Class="Entity:PropertySet" pos="630,620,0" flags="0" EntityGUID="{1861AA0D-4CEB-410D-8795-C83268F01421}" EntityGUID_64="410D4CEB1861AA0D">
+       <Inputs entityProperties_Property="Properties:bActive" Value="1" perArchetype="1"/>
+      </Node>
+      <Node Id="182" Class="Entity:PropertySet" pos="600,890,0" flags="0" EntityGUID="{1861AA0D-4CEB-410D-8795-C83268F01421}" EntityGUID_64="410D4CEB1861AA0D">
+       <Inputs entityProperties_Property="Properties:bActive" Value="0" perArchetype="1"/>
+      </Node>
+      <Node Id="183" Class="Entity:PropertySet" pos="490,1210,0" flags="0" EntityGUID="{267C516D-3FB4-4FF3-889E-D8F1237DBE9E}" EntityGUID_64="4FF33FB4267C516D">
+       <Inputs entityProperties_Property="Properties:bActive" Value="1" perArchetype="1"/>
+      </Node>
+      <Node Id="184" Class="Entity:PropertySet" pos="430,-440,0" flags="0" EntityGUID="{267C516D-3FB4-4FF3-889E-D8F1237DBE9E}" EntityGUID_64="4FF33FB4267C516D">
+       <Inputs entityProperties_Property="Properties:bActive" Value="0" perArchetype="1"/>
+      </Node>
+      <Node Id="185" Class="Logic:Any" pos="480,360,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="186" Class="Logic:Any" pos="490,890,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="192" Name="Fade in from black at level start.\nWait for 3 sec for time of day to update." Class="_commentbox" pos="130,-1180,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="740" Height="350"/>
+       <NodeSize Width="740" Height="350"/>
+      </Node>
+      <Node Id="194" Name="Sets time of day to 15.30. Activates EnvProbeDay. \nDeactivates EnvProbeSunRise." Class="_commentbox" pos="290,-810,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="750" Height="520"/>
+       <NodeSize Width="750" Height="520"/>
+      </Node>
+      <Node Id="195" Name="Sets time of day to 17.15. Deactivates \nEnvProbeDay. Activates EnvProbeSunSet." Class="_commentbox" pos="330,-290,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="990" Height="470"/>
+       <NodeSize Width="990" Height="470"/>
+      </Node>
+      <Node Id="196" Name="Sets time of day to 0. Deactivates \nEnvProbeSunSet. Activates EnvProbeNight." Class="_commentbox" pos="390,210,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="1180" Height="520"/>
+       <NodeSize Width="1180" Height="520"/>
+      </Node>
+      <Node Id="197" Name="Sets time of day to 6.6. Deactivates \nEnvProbeNight. Activates EnvProbeSunRise." Class="_commentbox" pos="400,740,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="1190" Height="600"/>
+       <NodeSize Width="1190" Height="600"/>
+      </Node>
+      <Node Id="199" Name="Deactivates SunSet, SunRise \nand Night at start." Class="_commentbox" pos="-240,-310,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="200" Height="330"/>
+       <NodeSize Width="411.89456176757813" Height="330"/>
+      </Node>
+      <Node Id="200" Name="Cycles trough each \ntime of day setting." Class="_commentbox" pos="-550,80,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="280" Height="340"/>
+       <NodeSize Width="283.89456176757813" Height="340"/>
+      </Node>
+      <Node Id="201" Name="Brightens the screen in and out for each time of day change. " Class="_commentbox" pos="-1130,480,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="940" Height="460"/>
+       <NodeSize Width="940" Height="460"/>
+      </Node>
+      <Node Id="202" Name="Wait for 1 sec before \nactivating time of day change" Class="_commentbox" pos="-1030,80,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="280" Height="220"/>
+       <NodeSize Width="427.89456176757813" Height="220"/>
+      </Node>
+      <Node Id="203" Name="Wait for 4 sec before fading back,\nSo the time of day can update." Class="_commentbox" pos="-1450,-250,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="260" Height="250"/>
+       <NodeSize Width="492.89456176757813" Height="250"/>
+      </Node>
+      <Node Id="204" Name="Fade screen to white." Class="_commentbox" pos="-1040,-260,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="340" Height="300"/>
+       <NodeSize Width="340" Height="300"/>
+      </Node>
+      <Node Id="205" Name="Input for time of day change.\nIs disabled until time of day\nchange is completed." Class="_commentbox" pos="-1760,20,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="380" Height="500"/>
+       <NodeSize Width="426.89456176757813" Height="500"/>
+      </Node>
+      <Node Id="206" Class="Image:ScreenFader" pos="170,-1070,0" flags="0">
+       <Inputs FadeGroup="0" UseCurColor="1" FadeInTime="1" FadeOutTime="0" color_FadeColor="0,0,0" tex_TextureName="" UpdateAlways="0"/>
+      </Node>
+      <Node Id="209" Class="entity:Light" pos="1180,340,0" flags="0" EntityGUID="{55ED573C-6947-4707-9B9C-352DE49F995D}" EntityGUID_64="4707694755ED573C">
+       <Inputs Active="1" Disable="0" Enable="0"/>
+      </Node>
+      <Node Id="210" Name="Disable lensflare during night time." Class="_commentbox" pos="1160,290,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="170" Height="160"/>
+       <NodeSize Width="508.89456176757813" Height="160"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="154" nodeOut="2" portIn="In0" portOut="output" enabled="1"/>
+      <Edge nodeIn="206" nodeOut="2" portIn="FadeOut" portOut="output" enabled="1"/>
+      <Edge nodeIn="13" nodeOut="35" portIn="Set" portOut="Out1" enabled="1"/>
+      <Edge nodeIn="37" nodeOut="35" portIn="Set" portOut="Out2" enabled="1"/>
+      <Edge nodeIn="40" nodeOut="35" portIn="Set" portOut="Out0" enabled="1"/>
+      <Edge nodeIn="154" nodeOut="35" portIn="In1" portOut="Out3" enabled="1"/>
+      <Edge nodeIn="178" nodeOut="35" portIn="Set" portOut="Out0" enabled="1"/>
+      <Edge nodeIn="179" nodeOut="35" portIn="Set" portOut="Out0" enabled="1"/>
+      <Edge nodeIn="181" nodeOut="35" portIn="Set" portOut="Out1" enabled="1"/>
+      <Edge nodeIn="183" nodeOut="35" portIn="Set" portOut="Out2" enabled="1"/>
+      <Edge nodeIn="185" nodeOut="35" portIn="In1" portOut="Out1" enabled="1"/>
+      <Edge nodeIn="186" nodeOut="35" portIn="In1" portOut="Out2" enabled="1"/>
+      <Edge nodeIn="209" nodeOut="35" portIn="Disable" portOut="Out1" enabled="1"/>
+      <Edge nodeIn="209" nodeOut="35" portIn="Enable" portOut="Out2" enabled="1"/>
+      <Edge nodeIn="84" nodeOut="82" portIn="in" portOut="Released" enabled="1"/>
+      <Edge nodeIn="85" nodeOut="82" portIn="In" portOut="Released" enabled="1"/>
+      <Edge nodeIn="92" nodeOut="82" portIn="FadeOut" portOut="Released" enabled="1"/>
+      <Edge nodeIn="93" nodeOut="82" portIn="in" portOut="Released" enabled="1"/>
+      <Edge nodeIn="145" nodeOut="82" portIn="Activate" portOut="Released" enabled="1"/>
+      <Edge nodeIn="82" nodeOut="84" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="92" nodeOut="84" portIn="FadeIn" portOut="out" enabled="1"/>
+      <Edge nodeIn="146" nodeOut="84" portIn="Activate" portOut="out" enabled="1"/>
+      <Edge nodeIn="82" nodeOut="85" portIn="Disable" portOut="Out" enabled="1"/>
+      <Edge nodeIn="35" nodeOut="93" portIn="In" portOut="out" enabled="1"/>
+      <Edge nodeIn="153" nodeOut="145" portIn="In0" portOut="Value" enabled="1"/>
+      <Edge nodeIn="160" nodeOut="145" portIn="Activate" portOut="Done" enabled="1"/>
+      <Edge nodeIn="153" nodeOut="146" portIn="In1" portOut="Value" enabled="1"/>
+      <Edge nodeIn="161" nodeOut="146" portIn="Activate" portOut="Done" enabled="1"/>
+      <Edge nodeIn="130" nodeOut="153" portIn="Global_User_Brightness" portOut="Out" enabled="1"/>
+      <Edge nodeIn="39" nodeOut="154" portIn="Set" portOut="Out" enabled="1"/>
+      <Edge nodeIn="175" nodeOut="154" portIn="Set" portOut="Out" enabled="1"/>
+      <Edge nodeIn="184" nodeOut="154" portIn="Set" portOut="Out" enabled="1"/>
+      <Edge nodeIn="185" nodeOut="154" portIn="In0" portOut="Out" enabled="1"/>
+      <Edge nodeIn="186" nodeOut="154" portIn="In0" portOut="Out" enabled="1"/>
+      <Edge nodeIn="156" nodeOut="157" portIn="FadeIn" portOut="out" enabled="1"/>
+      <Edge nodeIn="145" nodeOut="160" portIn="InitialValue" portOut="Out" enabled="1"/>
+      <Edge nodeIn="146" nodeOut="160" portIn="TargetValue" portOut="Out" enabled="1"/>
+      <Edge nodeIn="145" nodeOut="161" portIn="TargetValue" portOut="Out" enabled="1"/>
+      <Edge nodeIn="146" nodeOut="161" portIn="InitialValue" portOut="Out" enabled="1"/>
+      <Edge nodeIn="180" nodeOut="185" portIn="Set" portOut="Out" enabled="1"/>
+      <Edge nodeIn="182" nodeOut="186" portIn="Set" portOut="Out" enabled="1"/>
+      <Edge nodeIn="157" nodeOut="206" portIn="in" portOut="FadedOut" enabled="1"/>
+     </Edges>
+     <HyperGraphId Id="{7AB46B12-5F6F-457C-B34D-B8046AA3F16D}"/>
+     <GraphTokens />
+    </FlowGraph>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{B3F49ACE-05BE-4787-BE3C-870D972C4648}" Name="LightInteriorRobotSeats20" HideOrder="0" Pos="658.99847,1115.5487,96.231026" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="6" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="3" fSpecularMultiplier="3"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{618A4DDC-A9AC-4986-AB2D-0B27AC732C50}" Name="LightInteriorRobotSeats11" HideOrder="0" Pos="692.27081,1118.2375,103.70474" FloorNumber="-1" Rotate="0.70256138,0.08004678,0.70256138,-0.080046773" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="16" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="4" fSpecularMultiplier="4"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="1" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="1" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{1BF50EDE-C479-4851-8413-CEFD7E3162EE}" Name="LightInteriorRobotSeats39" HideOrder="0" Pos="659.31781,1136.5662,105.53213" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="8" _nVersion="0">
+     <Color clrDiffuse="0.806952,0.198069,0.0202886" fDiffuseMultiplier="2" fSpecularMultiplier="2"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{F2BC5CEA-F018-4C85-A225-9FFB1C4BB673}" Name="EnvProbeAirshipStorage_2" HideOrder="0" Pos="667.03705,1113.0288,98.355156" FloorNumber="-1" Rotate="0.99357188,-0,0,-0.11320296" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="EnvironmentLight">
+    <Properties bActive="1" BoxSizeX="40" BoxSizeY="54" BoxSizeZ="30" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.05" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="0" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/StarterGame/envprobeairshipstorage_2_cm.dds"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{F9A2EDEE-A4A8-4065-93D8-0D504BEB6554}" Name="LightInteriorRobotSeats33" HideOrder="0" Pos="680.33392,1086.6555,100.62798" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="6" _nVersion="0">
+     <Color clrDiffuse="0.806952,0.198069,0.0202886" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{9A326AF2-33D6-446A-ACCA-E87E2EB1D5A3}" Name="EnvironmentProbeSunset" HideOrder="0" Pos="875.70917,1090.3236,88.315247" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="EnvironmentLight">
+    <Properties bActive="0" BoxSizeX="1024" BoxSizeY="1024" BoxSizeZ="1024" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.3" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="0" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/StarterGame/environmentprobesunset_cm.dds"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{3DE9DFF2-D206-4505-AA67-5FB68976A850}" Name="LightInteriorRobotSeats41" HideOrder="0" Pos="699.59027,1110.4974,108.0201" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320321" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="8" _nVersion="0">
+     <Color clrDiffuse="0.806952,0.198069,0.0202886" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="0" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{DB2863F4-8FE2-4853-BD01-790E2A97A0BF}" Name="LightInteriorRobotSeats7" HideOrder="0" Pos="678.96588,1121.3093,103.70474" FloorNumber="-1" Rotate="0.70256138,0.08004678,0.70256138,-0.080046773" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="16" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="4" fSpecularMultiplier="4"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="1" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="1" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{6823E5F6-FE3F-4449-9DE8-49825174C0FC}" Name="EnvProbeAirshipInterior2" HideOrder="0" Pos="736.9455,1109.1061,96.033432" FloorNumber="-1" Rotate="0.99357182,0,0,-0.11320323" ColorRGB="16776960" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="EnvironmentLight">
+    <Properties bActive="1" BoxSizeX="15" BoxSizeY="15" BoxSizeZ="14" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.617207,0.617207" fDiffuseMultiplier="1.5" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.05" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="0" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/StarterGame/envprobeairshipinterior2_cm.dds"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{B91406FD-6627-440E-B4D1-769A93705C5C}" Name="EnvProbeAirshipStorage_1" HideOrder="0" Pos="693.06293,1107.0203,98.355156" FloorNumber="-1" Rotate="0.99357188,-0,0,-0.11320296" ColorRGB="16776960" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="EnvironmentLight">
+    <Properties bActive="1" BoxSizeX="30" BoxSizeY="52" BoxSizeZ="30" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.05" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="0" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="Textures/cubemaps/StarterGame/envprobeairshipstorage_1_cm.dds"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Lighting" LayerGUID="{43A2675F-45CF-49F5-A43F-5399C8F03831}" Id="{45A87AFE-B248-474A-A53D-DC0F63075B1D}" Name="LightInteriorRobotSeats14" HideOrder="0" Pos="674.1073,1100.2644,103.70474" FloorNumber="-1" Rotate="0.70256138,0.08004678,0.70256138,-0.080046773" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="12" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="Light">
+    <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="16" _nVersion="0">
+     <Color clrDiffuse="0.617207,0.89627,0.973445" fDiffuseMultiplier="4" fSpecularMultiplier="4"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" bAmbient="0" bFakeLight="0" fFogRadialLobe="0" bIgnoresVisAreas="0" bVolumetricFog="1"/>
+     <Projector fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+     <Shadows nCastShadows="1" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1"/>
+     <Shape bAreaLight="1" fPlaneHeight="1" fPlaneWidth="1"/>
+     <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

@@ -1,0 +1,9 @@
+<ObjectLayer>
+ <Layer Name="Sky" GUID="{C987A760-BDF5-4ED0-991F-C7930D4DD939}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1">
+  <LayerObjects>
+   <Object Type="Brush" Layer="Sky" LayerGUID="{C987A760-BDF5-4ED0-991F-C7930D4DD939}" Id="{8FCA9904-14DF-4EC0-99CE-A6EA7AC884CD}" Name="fx_distancecloud_1" HideOrder="0" Pos="924.24994,1062.125,188.19997" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16777215" Prefab="Objects/effects/fx_distancecloud_01.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistanceMultiplier="1" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering />
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

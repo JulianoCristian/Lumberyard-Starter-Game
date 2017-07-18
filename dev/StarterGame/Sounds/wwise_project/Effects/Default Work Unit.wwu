@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2675ABFA-2B80-4F95-A415-380BFF3FCBC0}" SchemaVersion="72">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{2675ABFA-2B80-4F95-A415-380BFF3FCBC0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="reverb_test" ID="{CD46F3E8-9F39-48AC-AC5F-C88D5BDDAA51}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="DecayTime" Type="Real32" Value="2"/>
+						<Property Name="ERLevel" Type="Real32" Value="-10"/>
+						<Property Name="EnableEarlyReflections" Type="bool" Value="False"/>
+						<Property Name="HFDamping" Type="Real32" Value="1"/>
+						<Property Name="ReverbLevel" Type="Real32" Value="-46"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="rvb_ship_int" ID="{E521E85F-9FE6-47F6-BF5E-CB5EF771E3AB}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="ReverbLevel" Type="Real32" Value="-36"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="dly_wpn_fire" ID="{910D7167-2D8C-4412-A59A-49ED80CA36C1}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="0.25"/>
+						<Property Name="Feedback" Type="Real32" Value="5"/>
+						<Property Name="WetDryMix" Type="Real32" Value="5"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

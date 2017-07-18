@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A08285DE-464E-4867-9A8C-8E0611499B5D}" SchemaVersion="72">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{A08285DE-464E-4867-9A8C-8E0611499B5D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="BusChannelConfig" Type="int32">
+							<ValueList>
+								<Value>12546</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ChildrenList>
+						<Bus Name="soundfx" ID="{6E7EB2EF-4E3A-4FD4-86DF-6450011F480C}">
+							<ChildrenList>
+								<Bus Name="player" ID="{7509FFC2-5368-483F-AC7B-582D124911F8}">
+									<ChildrenList>
+										<Bus Name="foley" ID="{2A940BC0-6E59-42AF-8B73-E92D1FE26C82}">
+											<ChildrenList>
+												<Bus Name="loco" ID="{8B6443E3-7291-4C11-B3F7-8D083AE64C11}">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64">
+															<ValueList>
+																<Value>-12</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+												</Bus>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="weapons" ID="{7A519CB3-1657-4B1A-9B18-69EBA63B9675}">
+											<ChildrenList>
+												<Bus Name="wpn_grenade_explode" ID="{CC89F29C-AB8F-49B6-A3B2-D46DA1EBCCBF}"/>
+											</ChildrenList>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="env" ID="{052B287E-FBDF-4E3C-891C-229F717F0BB8}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="ship_int" ID="{51A61E8A-64C1-430E-8AFC-BC079615DD5A}">
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<ObjectRef Name="rvb_ship_int" ID="{E521E85F-9FE6-47F6-BF5E-CB5EF771E3AB}" WorkUnitID="{2675ABFA-2B80-4F95-A415-380BFF3FCBC0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Bus Name="ship_int_sfpx" ID="{787044C7-C129-4F5E-8D68-9CEC3D16AB0F}"/>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="ship_ext" ID="{ED6C3399-EA51-4EEC-8125-79A75EF6CF13}">
+											<ChildrenList>
+												<Bus Name="ship_ext_spfx" ID="{FEBB039A-C869-40F9-B3AA-C82B21766418}"/>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="forest" ID="{47599AB1-8687-41BF-80F8-0A1D3E2D130F}">
+											<ChildrenList>
+												<Bus Name="forest_spfx" ID="{36FADBB8-577A-426C-A4A8-4D97864C8A84}">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64">
+															<ValueList>
+																<Value>-12</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+												</Bus>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="river" ID="{970CCF59-52A6-40AC-A642-3018763E861E}">
+											<ChildrenList>
+												<Bus Name="river_spfx" ID="{408C913A-82BC-456E-8F84-CA218B4FFD8F}"/>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="_objects" ID="{88360E6D-490D-4201-B01F-2529E1C30328}">
+											<ChildrenList>
+												<Bus Name="crates" ID="{98590C2D-F556-4FF2-BAAA-CC900C737ADB}">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64">
+															<ValueList>
+																<Value>6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+												</Bus>
+											</ChildrenList>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+								<AuxBus Name="reverb" ID="{D2FEACD9-3984-4540-9AC4-9B10C4F31DA6}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="rvb_ship_int" ID="{E521E85F-9FE6-47F6-BF5E-CB5EF771E3AB}" WorkUnitID="{2675ABFA-2B80-4F95-A415-380BFF3FCBC0}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+								<Bus Name="HUD" ID="{CB3AE989-2830-435E-A484-FE7C783C2A7B}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="reverb_test" ID="{CD46F3E8-9F39-48AC-AC5F-C88D5BDDAA51}" WorkUnitID="{2675ABFA-2B80-4F95-A415-380BFF3FCBC0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Bus Name="HUD_FX" ID="{C392BD75-2F3A-4B31-9F5B-3FA3F4C41D2E}">
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<ObjectRef Name="reverb_test" ID="{CD46F3E8-9F39-48AC-AC5F-C88D5BDDAA51}" WorkUnitID="{2675ABFA-2B80-4F95-A415-380BFF3FCBC0}"/>
+												</Reference>
+											</ReferenceList>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}">
+					<PropertyList>
+						<Property Name="BusChannelConfig" Type="int32">
+							<ValueList>
+								<Value>12546</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{538CC469-25E5-4165-895B-7EF966244F77}" SchemaVersion="72">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{538CC469-25E5-4165-895B-7EF966244F77}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="world_location" ID="{1DED4085-037C-4C60-88AC-3EB54916A9F1}">
+					<ChildrenList>
+						<State Name="None" ID="{A5CAFF3B-2144-4D99-8679-F4B83CE2DB80}"/>
+						<State Name="ship_int" ID="{DB7D0E48-DEDB-45DE-82B5-18F925D987C3}"/>
+						<State Name="ship_ext" ID="{77E1C4DB-325C-495F-A692-6EC51A5BDF58}"/>
+						<State Name="forest" ID="{A180E950-B274-4E47-BBAF-A60CE1539A3F}"/>
+						<State Name="river" ID="{83B818ED-5397-4A14-8054-942247014CBF}"/>
+						<State Name="ridge" ID="{48A5CADD-E64D-4C44-9413-7A94D50BD789}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>
