@@ -10,6 +10,14 @@ Amazon GameDev Tutorials: https://gamedev.amazon.com/forums/tutorials
 
 An Introduction to AWS Lumberyard Game Development: https://www.packtpub.com/books/content/introduction-aws-lumberyard-game-development
 
+# Lumberyard Support for macOS(Preview release)
+
+macOS Support Documentation: https://docs.aws.amazon.com/lumberyard/latest/userguide/osx-intro.html
+
+# Lumberyard Support for Linux(Preview release)
+
+https://docs.aws.amazon.com/lumberyard/latest/userguide/linux-intro.html
+
 # System Requirements
 
 Lumberyard requires the following hardware and software:
