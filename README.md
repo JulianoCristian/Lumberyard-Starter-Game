@@ -1,4 +1,4 @@
-# Lumberyard Starter Game
+# Lumberyard Starter Game(Unofficial User Guide)
 
 Install Lumberyard: https://aws.amazon.com/lumberyard/downloads/
 
