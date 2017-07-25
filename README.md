@@ -1,6 +1,7 @@
 # Lumberyard Starter Game(Unofficial User Guide)
+![amazon-lumberyard](https://user-images.githubusercontent.com/18353476/28592053-ae35f67a-713c-11e7-9d2b-9fab8de0c94c.jpg)
 
-Install Lumberyard: https://aws.amazon.com/lumberyard/downloads/
+Install Lumberyard: https://aws.amazon.com/lumberyard/
 
 Follow the Lumberyard setup instructions here: https://gamedev.amazon.com/forums/tutorials
 
