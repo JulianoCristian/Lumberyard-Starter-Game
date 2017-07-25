@@ -45,5 +45,6 @@ One or both of the following: (required to compile Lumberyard Editor and tools)
  
 ![1_launcher](https://user-images.githubusercontent.com/18353476/28295300-864421c4-6b14-11e7-8771-40a598086499.png)
 ![2_setupgems](https://user-images.githubusercontent.com/18353476/28333786-f2a032d8-6bad-11e7-97db-59fd6675c37d.png)
+![startergame](https://user-images.githubusercontent.com/18353476/28592987-b807bc58-713f-11e7-9e0b-af9f8049dc37.PNG)
 ![startergame](https://user-images.githubusercontent.com/18353476/28298168-9e83a612-6b26-11e7-8943-070c6ff4f2d2.jpg)
 ![starter2](https://user-images.githubusercontent.com/18353476/28487938-beef8d24-6e52-11e7-93ad-3c9d95b88c30.PNG)
