@@ -3,8 +3,6 @@
 
 Install Lumberyard: https://aws.amazon.com/lumberyard/
 
-Follow the Lumberyard setup instructions here: https://gamedev.amazon.com/forums/tutorials
-
 Lumberyard Documentation: https://docs.aws.amazon.com/lumberyard/latest/userguide/setting-up-system-requirements.html
 
 Amazon GameDev Tutorials: https://gamedev.amazon.com/forums/tutorials
@@ -48,3 +46,14 @@ One or both of the following: (required to compile Lumberyard Editor and tools)
 ![startergame](https://user-images.githubusercontent.com/18353476/28592987-b807bc58-713f-11e7-9e0b-af9f8049dc37.PNG)
 ![startergame](https://user-images.githubusercontent.com/18353476/28298168-9e83a612-6b26-11e7-8943-070c6ff4f2d2.jpg)
 ![starter2](https://user-images.githubusercontent.com/18353476/28487938-beef8d24-6e52-11e7-93ad-3c9d95b88c30.PNG)
+
+ # Game controls
+ To start the game, press Ctrl+G. Use the following keyboard keys and mouse controls:
+
+To move forward, strafe left, move backward, and strafe right, press the W, A, S, and D keys, respectively.
+To look around, move the mouse.
+To shoot, click the primary mouse button.
+To toggle weapon selection, click the secondary mouse button.
+To toggle time of day, press the F key.
+To exit the game, press Esc.
+If you are running Starter Game in the editor and Jack the robot dies, press Esc to exit the game.
